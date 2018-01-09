@@ -15,7 +15,7 @@ https://www.quora.com/What-Excel-skills-and-formulas-does-a-business-analyst-nee
 This course is not much about math, and more about data organization, cleaning, and tools available to you to save you a lot of time.
    
 ### Good practices and bad: multiple tables on one sheet is bad.
-![Good_bad_practices](https://user-images.githubusercontent.com/33227678/34724162-2d179734-f54d-11e7-82f4-23762bd193ad.png)
+![Good_bad_practices](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/good_bad.png)
 
 
 
@@ -32,7 +32,7 @@ survey_data_spreadsheet_messy.xlsx
 
 **3 Worksheets to separate your concerns:**
 
-1. ![Data](/images/logo.png) : raw data is just rows and columns.
+1. ![Data](https://user-images.githubusercontent.com/33227678/34724841-9198fdf4-f54f-11e7-95c0-58e87f1ab4f1.png) : raw data is just rows and columns.
 2. ![Analysis](/images/logo.png) : color, tables, formula referring to data sheet,... 
 3. ![Chart](/images/logo.png) :charts !
 
@@ -67,7 +67,7 @@ Insert Tab has charts/pivots on it....
 ![Insert_tab_Windows](/images/logo.png)
 
 The Data tab....
-![Data_tab_Windows](/images/logo.png)
+![Data_tab_Windows](https://user-images.githubusercontent.com/33227678/34724840-9184ee0e-f54f-11e7-9d5c-01459a546c3e.png)
 
 
 #### Mac Excel is different
@@ -75,7 +75,7 @@ Right click on top toolbar to customize it...
 ![Toolbar_mac](/images/logo.png)
 
 The Data Tab has filters, Pivots, Text to Columns, etc...
-![Data_tab_mac](/images/logo.png)
+![Data_tab_mac](https://user-images.githubusercontent.com/33227678/34724838-916b0cdc-f54f-11e7-97f0-c8b59a3837c0.png)
 
 **Make sure all your tabs are showing.**
 
@@ -86,7 +86,7 @@ The Data Tab has filters, Pivots, Text to Columns, etc...
   ![Ribbon](/images/logo.png)
 
   * Be sure to scroll this window and check all of them.
-  ![check_tabs](/images/logo.png)
+  ![check_tabs](https://user-images.githubusercontent.com/33227678/34724832-90e2bd00-f54f-11e7-9faf-f2156c7bd325.png)
 
 ### Key UI Tools You Must Understand
  * Sorting
@@ -159,7 +159,7 @@ It is very common for a raw data set to be in a text format, not excel. Usually 
 
 The difference is the character that separates the columns of data — for instance, this is CSV data with 2 columns (and no “header” title on the first row):
 
-![csv_data](/images/logo.png)
+![csv_data](/https://user-images.githubusercontent.com/33227678/34724836-913c95fa-f54f-11e7-8ed9-9baf80b3a18c.png)
 
 
 #### Let’s try the dialog that splits data by a separator value.
@@ -170,19 +170,19 @@ The difference is the character that separates the columns of data — for insta
 
 2. If it is “tab separated”, you would choose text.
  
-![delimiter1](/images/logo.png)
+![delimiter1](https://user-images.githubusercontent.com/33227678/34724843-91bfa6a2-f54f-11e7-8168-b5fc3743947c.png)
 
-![delimiter2](/images/logo.png)
+![delimiter2](https://user-images.githubusercontent.com/33227678/34724844-91d9a746-f54f-11e7-8926-2694c864bcd9.png)
   
 3. The “Types” Dialog:
 
-![dialog_types](/images/logo.png)
+![dialog_types](https://user-images.githubusercontent.com/33227678/34724845-91f219e8-f54f-11e7-98f0-0a9a3d576c20.png)
 
 You can also change your data types after importing, but there is one important issue here:  
 **decimal number format**.   
 Click on “Advanced...”
 
-![comma_issue](/images/logo.png)
+![comma_issue](https://user-images.githubusercontent.com/33227678/34724835-912251e0-f54f-11e7-8c86-80bb1d27ba1d.png)
 
 This issue caused a lot of difficulty to students last semester.   
 :zap: :zap:  **All of my data files use international formatting for decimals: “point” or “dot”, not “comma.”** :zap: :zap:   
@@ -196,12 +196,12 @@ Make sure you change this to match my settings when you import text data with nu
 
 In a blank workbook, click File menu, choose Open.... and change the dialog to show or enable “All files”:  
 
-![all_files](/images/logo.png)
+![all_files](https://user-images.githubusercontent.com/33227678/34724776-66264140-f54f-11e7-9805-1719b7a24d26.png)
 
 Navigate to and click on **ChiCrimes_Chicago2008.csv** to open it.   
 Hopefully it will understand the csv format and load it correctly for you:
  
-![Chicago_csv](/images/logo.png)
+![Chicago_csv](https://user-images.githubusercontent.com/33227678/34724834-910e41c8-f54f-11e7-8955-1346f0f9b7f2.png)
 
 ###### If it does not... all of it will be in one column, with no headers.
 
@@ -251,7 +251,7 @@ When we import from CSV (or other text formats), Excel may guess “wrong” for
 > **A common problem**  
 > One issue people frequently run into is that Excel occasionally misinterprets text fiels as dates.  
 > An example is here :  
-> ![Excel](/images/logo.png)  
+> ![Excel](https://user-images.githubusercontent.com/33227678/34724847-921cb6d0-f54f-11e7-96f1-bc735d3f7d1b.png)  
 > Be careful when entering dates, especially if you are importing from other data sources, to make sure that you "Jan-13" is being stored as January 13, 2013 !
 ***- http://www.exceltactics.com/definitive-guide-using-dates-times-excel/ -***
  
@@ -270,18 +270,18 @@ You must select the entire column, not just a single cell!
 Do that by clicking the C on top.  
 Then choose “Custom...”
  
-![custom_format](/images/logo.png)
+![custom_format](https://user-images.githubusercontent.com/33227678/34724837-9152557a-f54f-11e7-8aa1-0b401e529cae.png)
 
 You should have a date option that includes AM/PM in the time.
 
-![am_pm_dates](/images/logo.png)
+![am_pm_dates](https://user-images.githubusercontent.com/33227678/34724827-9076db30-f54f-11e7-80e8-231ff1725d77.png)
  
 
 ###### What if we wanted the date and time in different columns?
 Hint: Copy the Date column to 2 new columns. Reformat them.  
 Rename the original col to “date-time” and the other 2 to “Date” and “Time”
 Work on doing this now...   
-![date](/images/logo.png)  
+![date](https://user-images.githubusercontent.com/33227678/34724842-91ac5dcc-f54f-11e7-8d0f-933e77664562.png)  
 Notice that when you mouse in a cell, you see the full info.
  
 
@@ -289,7 +289,7 @@ Notice that when you mouse in a cell, you see the full info.
   * Save As...  
   * Pick format CSV  
   * Give it the name “chi2.csv” 
- ![chi_csv](/images/logo.png)   
+ ![chi_csv](https://user-images.githubusercontent.com/33227678/34724833-90f7e5c2-f54f-11e7-831b-3c49e485cf1c.png)   
 *Note: you are going to upload this file, so make sure you do this and work in it now.*
  
 Now open that new file you made.
@@ -328,16 +328,16 @@ Mac - the DATA tab.
 1. Click this triangle, it will highlight all of them.
 2. THEN select the filter icon (it will be on Data tab or Home).
 3. You should see the little sorting arrows on each column if you did it right.
-![filter_step](/images/logo.png) 
+![filter_step](https://user-images.githubusercontent.com/33227678/34724850-926283b8-f54f-11e7-860b-d5d64dd3f3fd.png) 
 
 ###### Exercises
 Import the CSV version of ChiCrimes data (Chicago crime data).
 Open ChiCrimes data and try filters:
 
-![filter_chicrimes](/images/logo.png) 
+![filter_chicrimes](https://user-images.githubusercontent.com/33227678/34724849-924c87ac-f54f-11e7-807d-97dec059d91e.png) 
 
 *A nice feature in recent Excels – saves you time and helps you troubleshoot your data:
-![bottom_toolbart](/images/logo.png) 
+![bottom_toolbart](https://user-images.githubusercontent.com/33227678/34724829-90a8e1fc-f54f-11e7-93b7-74f392c47150.png) 
 On Mac, you can pick one to show - sum is default, I think. Change to count.*
 
 ### Filters can be combined with sorting to get answers to questions.
@@ -345,7 +345,7 @@ On Mac, you can pick one to show - sum is default, I think. Change to count.*
 2. Then sort by Date, Ascending.
 This puts the earliest date/time for the burglaries first, and the latest last.
 
-![bulgary_filter](/images/logo.png) 
+![bulgary_filter](https://user-images.githubusercontent.com/33227678/34724830-90c378aa-f54f-11e7-882b-03420bdde04d.png) 
 
 *What is the last burglary in this data?*
 
@@ -362,13 +362,13 @@ This puts the earliest date/time for the burglaries first, and the latest last.
   * Look at just Sexual Offenses. Can you see anything interesting here?
 
 *Warning: Don’t forget you might have filters in action and not see your whole data set. To turn off all the filters, just hit the filter button again:*
- ![filter_button](/images/logo.png) 
+ ![filter_button](https://user-images.githubusercontent.com/33227678/34724848-92323b68-f54f-11e7-86c0-790bf947efcd.png) 
 
 
 
 ### Useful for counting: Remove Duplicates
   
-![duplicates](/images/logo.png) 
+![duplicates](https://user-images.githubusercontent.com/33227678/34724846-9207a34e-f54f-11e7-9173-4ee547f31b56.png) 
 
 
 
