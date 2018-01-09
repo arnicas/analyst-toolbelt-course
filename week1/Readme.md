@@ -15,7 +15,9 @@ https://www.quora.com/What-Excel-skills-and-formulas-does-a-business-analyst-nee
 This course is not much about math, and more about data organization, cleaning, and tools available to you to save you a lot of time.
    
 ### Good practices and bad: multiple tables on one sheet is bad.
-![Good_bad_practices](/week1_pic/good_bad_practices.png)
+![Good_bad_practices](https://user-images.githubusercontent.com/33227678/34724162-2d179734-f54d-11e7-82f4-23762bd193ad.png)
+
+
 
 survey_data_spreadsheet_messy.xlsx 
 
