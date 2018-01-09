@@ -36,7 +36,7 @@ survey_data_spreadsheet_messy.xlsx
 2. Analysis: color, tables, formula referring to data sheet,... 
 3. Charts 
 
-![Data](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Data.png) 
+![Data][4%](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Data.png) 
 
 
 ### A few “bad” things for raw data sheets
@@ -277,7 +277,7 @@ Then choose “Custom...”
 
 You should have a date option that includes AM/PM in the time.
 
-![am_pm_dates](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Dam_pm_dates.png)
+![am_pm_dates](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/am_pm_dates.png)
  
 
 ###### What if we wanted the date and time in different columns?
@@ -339,8 +339,8 @@ Open ChiCrimes data and try filters:
 
 ![filter_chicrimes](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/filter_chicrimes.png) 
 
-*A nice feature in recent Excels – saves you time and helps you troubleshoot your data:
-![bottom_toolbart](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/bottom_toolbart.png) 
+*A nice feature in recent Excels – saves you time and helps you troubleshoot your data:  
+![bottom_toolbart](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/bottom_toolbart.png)   
 On Mac, you can pick one to show - sum is default, I think. Change to count.*
 
 ### Filters can be combined with sorting to get answers to questions.
