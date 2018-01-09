@@ -422,7 +422,7 @@ You should have both columns - the original, and the new derived column (pasted 
  
 ### Saving as csv: Remember Format
 
-![save](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/save.png) 
+![save](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/save.png)   
 Then you must say “continue” to the dialogs afterwards.... 
 
 **WARNINGS**
