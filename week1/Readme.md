@@ -15,7 +15,7 @@ https://www.quora.com/What-Excel-skills-and-formulas-does-a-business-analyst-nee
 This course is not much about math, and more about data organization, cleaning, and tools available to you to save you a lot of time.
    
 ### Good practices and bad: multiple tables on one sheet is bad.
-![Good_bad_practices](/images/logo.png)
+![Good_bad_practices](/week1_pic/good_bad_practices.png)
 
 survey_data_spreadsheet_messy.xlsx 
 
@@ -286,7 +286,8 @@ Notice that when you mouse in a cell, you see the full info.
 ### Now save this edited data as CSV. Call it “chi2.csv”.
   * Save As...  
   * Pick format CSV  
-  * Give it the name “chi2.csv”  
+  * Give it the name “chi2.csv” 
+ ![chi_csv](/images/logo.png)   
 *Note: you are going to upload this file, so make sure you do this and work in it now.*
  
 Now open that new file you made.
