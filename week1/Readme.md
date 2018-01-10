@@ -147,6 +147,71 @@ We need some data to start with.  A common "raw data" file format is CSV, or "co
 
 Video: [Import CSV](https://youtu.be/7U5WgW_mQ8o)
 
+It is very common for a raw data set to be in a text format, not excel. Usually it will be in “CSV” or “TSV” format — “comma separated values” or “tab separated values.”
+
+The difference is the character that separates the columns of data — for instance, this is CSV data with 2 columns (and no “header” title on the first row):
+
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/csv_data.png" width="111" height="250">   
+
+Video:
+  * [Split Text to Columns](https://youtu.be/xs4QmuhFgSo)
+
+#### Let’s try the dialog that splits data by a separator value.
+
+1. Click on File menu, then “Import....” and make sure this dialog says CSV:
+
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/import_menu.png" width="500" height="353">   
+
+2. If it is “tab separated”, you would choose text.
+ 
+
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/delimiter1.png" width="500" height="355">   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/delimiter2.png" width="500" height="355">   
+
+  
+3. The “Types” Dialog:
+
+
+You can also change your data types after importing, but there is one important issue here: **decimal number format**.  
+
+
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/dialog_types.png" width="500" height="440">   
+
+Click on “Advanced...”
+
+This issue caused a lot of difficulty to students last semester.  
+
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/comma_issues.png" width="304" height="200">  
+
+:zap: :zap:  **All of my data files use international formatting for decimals: “point” or “dot”, not “comma.”** :zap: :zap:   
+Make sure you change this to match my settings when you import text data with numbers.
+
+4. The last dialog - if you are in a blank new workbook, use $A$1:
+ 
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/import_data.png" width="400" height="202">  
+
+
+#### alternatively... some Excel versions can open CSV files for you:
+
+In a blank workbook, click File menu, choose Open.... and change the dialog to show or enable “All files”:  
+
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/all_files.png" width="500" height="403">  
+
+
+Navigate to and click on **ChiCrimes_Chicago2008.csv** to open it.   
+Hopefully it will understand the csv format and load it correctly for you:
+ 
+![Chicago_csv](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Chicago_csv.png)
+
+###### If it does not... all of it will be in one column, with no headers.
+
+Then you can split the single column using the same dialogs, accessible from the “text to columns” button (under Data in Mac Excel, maybe home on Windows?)
+
+Video: [Text to Columns](https://youtu.be/xs4QmuhFgSo)
+ 
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/txt_col.png" width="250" height="73">  
+
+
 
 ## FILTERS (AND SORTING)! 
 :zap: **YOU MUST MASTER THIS.** :zap:   
@@ -186,9 +251,9 @@ This puts the earliest date/time for the burglaries first, and the latest last.
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/bulgary_filter.png" width="300" height="368">   
 *What is the last burglary in this data?*
 
-###### Exercises:
+###### Exercises in Class:
 
- So, Using Filters, Tell Me... ln the Chicago crimes:  
+ So, using filters, tell me... ln the Chicago crimes:  
   * What dates does this data cover?
   * How many offenses occurred at Animal Hospitals?
   * Did they occur at the same one?
@@ -210,7 +275,6 @@ A useful trick - removing duplicates to see what your unique field values are.
 ![duplicates](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/duplicates.png) 
 
 Video: [Remove Duplicates](https://youtu.be/SRpAdtKNXSY)
-
 
 ## Cleaning Data
 
@@ -266,74 +330,24 @@ Extensive tutorial:
 http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/   
 
 
-### How to Split Columns by A Character (Text-To-Columns)
-It is very common for a raw data set to be in a text format, not excel. Usually it will be in “CSV” or “TSV” format — “comma separated values” or “tab separated values.”
 
-The difference is the character that separates the columns of data — for instance, this is CSV data with 2 columns (and no “header” title on the first row):
+### Cleaning: Text Replacements
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/csv_data.png" width="111" height="250">   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/price.png" width="300" height="333"> 
 
-Video:
-  * [Split Text to Columns](https://youtu.be/xs4QmuhFgSo)
+These are not numbers. 
+We can clean by hand and/or using formula or find/replace.
 
-#### Let’s try the dialog that splits data by a separator value.
+***See Problem 4 of this: http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/***
 
-1. Click on File menu, then “Import....” and make sure this dialog says CSV:
-
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/import_menu.png" width="500" height="353">   
-
-2. If it is “tab separated”, you would choose text.
- 
-
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/delimiter1.png" width="500" height="355">   
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/delimiter2.png" width="500" height="355">   
+Also see video: [Clean column with replace](https://youtu.be/hqP_3A1qcmI)
 
 
-  
-3. The “Types” Dialog:
+### Cleaning: How to Split Columns by A Character (Text-To-Columns)
 
+You usually want one item of data per column.  Sometimes you need to simplify the data you have loaded, and separate items.
 
-You can also change your data types after importing, but there is one important issue here: **decimal number format**.  
-
-
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/dialog_types.png" width="500" height="440">   
-
-Click on “Advanced...”
-
-This issue caused a lot of difficulty to students last semester.  
-
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/comma_issues.png" width="304" height="200">  
-
-:zap: :zap:  **All of my data files use international formatting for decimals: “point” or “dot”, not “comma.”** :zap: :zap:   
-Make sure you change this to match my settings when you import text data with numbers.
-
-4. The last dialog - if you are in a blank new workbook, use $A$1:
- 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/import_data.png" width="400" height="202">  
-
-
-#### alternatively... some Excel versions can open CSV files for you:
-
-In a blank workbook, click File menu, choose Open.... and change the dialog to show or enable “All files”:  
-
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/all_files.png" width="500" height="403">  
-
-
-Navigate to and click on **ChiCrimes_Chicago2008.csv** to open it.   
-Hopefully it will understand the csv format and load it correctly for you:
- 
-![Chicago_csv](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Chicago_csv.png)
-
-###### If it does not... all of it will be in one column, with no headers.
-
-Then you can split the single column using the same dialogs, accessible from the “text to columns” button (under Data in Mac Excel, maybe home on Windows?)
-
-Video: [Text to Columns](https://youtu.be/xs4QmuhFgSo)
- 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/txt_col.png" width="250" height="73">  
-
-### For Homework,   
-You need to split this column into two.   
+For Homework, you need to split this column into two.   
 Create two columns from one, using a bunch of tools:
 
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/location.png" width="374" height="400">  
@@ -346,20 +360,12 @@ Create two columns from one, using a bunch of tools:
   * Select each resulting column and replace the “)” or “(“ by nothing 
   * Label the new columns as requested.
 
-
-### Text Replacements
-
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/price.png" width="300" height="333"> 
-
-These are not numbers.  
-We can clean by hand and/or using formula or find/replace.
-
-***See section 4 of this: http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/***
+See video: [Text to Columns](https://youtu.be/xs4QmuhFgSo)
 
  
-## Date/Time types
+## Verifying: Date/Time types
 
-The data type is very importantin Excel.
+The data type is very important in Excel.
 
 Put your mouse in a column, and check the type in this dropdown.  
 
@@ -398,35 +404,35 @@ You should have a date option that includes AM/PM in the time.
 
 ###### What if we wanted the date and time in different columns?
 Hint: Copy the Date column to 2 new columns. Reformat them.  
-Rename the original col to “date-time” and the other 2 to “Date” and “Time”
-Work on doing this now...   
+Rename the original col to “date-time” and the other 2 to “Date” and “Time”. Or use formulae.
   
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/date.png" width="350" height="305">   
-Notice that when you mouse in a cell, you see the full info.
- 
+Notice that when you mouse in a cell, you see the full date information.
 
 ### Now save this edited data as CSV. Call it “chi2.csv”.
   * Save As...  
   * Pick format CSV  
-  * Give it the name “chi2.csv” 
- <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/chi_csv.png" width="300" height="131">   
-*Note: you are going to upload this file, so make sure you do this and work in it now.*
- 
-Now open that new file you made.
+  * Give it the name “chi2.csv”
 
-##### What do you see about the new “Date” and “Time” columns now?
+Video: [Save as CSV](https://youtu.be/uJ_cSdF8hkk)
+
+<img src="week1_pic/chi_csv.png" width="300" height="131">
+
+*Note: you are going to upload this file after the exercises, so make sure you do this and work in it now.*
+ 
+Now open that new file you made. What do you see about the new “Date” and “Time” columns now?
 
 **This is why we kept the original column with both...**  
+
 Excel format saves more info than csv. CSV is a text format that preserves **only the text visible** in the cells.   
 That’s why format types matter so much in the display in the cell. Make sure you have your data formatted with the info you need.
 
 ### More Advice for Dates
+
+  * The advice in Browman & Woo is to save your dates in the international standard YYYY-MM-DD.
   * Article: [Dates as Data](http://www.datacarpentry.org/spreadsheet-ecology-lesson/03-dates-as-data/)
   * Store your day, month, year separately (allows some special analysis by each) &/or
   * Be sure text fields are interpreted as date types correctly
-
-
-
 
 ## Formulae
 
