@@ -2,6 +2,8 @@
 
 ## Intro to Excel and Cleaning Data
 ### Why Excel?
+
+
   * Everyone everywhere uses it in business. 
   * It’s a great tool for exploratory data analysis
   * You can use it to make CSV files for other tools, and use in Python/R/Javascript apps
@@ -17,8 +19,6 @@ This course is not much about math, and more about data organization, cleaning, 
 ### Good practices and bad: multiple tables on one sheet is bad.
 <img src="week1_pic/good_bad.png" width="600" height="291">
 
-
-See survey_data_spreadsheet_messy.xlsx 
 
 ### Separating data, analysis and presentation
 > One of the most important concepts in a data model is the separation of data, analyis and presentation. The fundamental idea is that you don't want your data to become too tied into any one particular way of presenting that data. 
@@ -36,7 +36,7 @@ See survey_data_spreadsheet_messy.xlsx
 3. Charts 
 
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Data.png" width="600" height="549">
+<img src="week1_pic/Data.png" width="600" height="549">
 
 ### A few “bad” things for raw data sheets
   * Color coded cells without clear data column values (why were they colored?) Merged cells
@@ -47,14 +47,24 @@ See survey_data_spreadsheet_messy.xlsx
   * Bad “null” values
   * Multiple pieces of info in the same cell
 
-More: http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistak7es.html
+More: http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/
 
 ### Presentation is different from raw data
   * “raw data” is the number, values, columns, rows... in plain format
   * Cells that are colored, highlighted, footnoted, graphs etc — are presentation and analysis tools, not the raw data.
   * The stuff that is saved in CSV files (plain text) is the raw data.
+ 
+ :zap: Questions about this are on the quiz. :zap:
 
+### Key UI Tools You Must Understand in Excel for Data Cleaning & Reporting
 
+ * Sorting
+ * Filtering columns
+ * Find-and-Replace in Columns
+ * Text-to-columns (used to split one column into many columns using some separator like a comma)
+ * Formulas to clean data
+ * Paste-Special (for paste as "values")
+ * Pivot tables (tables croisées) -- we will do next week.
 
 
 ## Excel UI Tools
@@ -88,19 +98,17 @@ The Data Tab has filters, Pivots, Text to Columns, etc...
 
   * Be sure to scroll this window and check all of them.  
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/check_tabs.png" width="400" height="330">   
-
-### Key UI Tools You Must Understand
- * Sorting
- * Filtering columns
- * Text-to-columns (used to split one column into many columns using some separator like a comma)
- * Pivot tables (tables croisées) 
- * Paste-Special (paste as values)
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/check_tabs.png" width="400" height="330">  
 
 
+## Loading CSV Data
+
+We need some data to start with.  A common "raw data" file format is CSV, or "comma separated values."  (In France it is usually ";" separated.)
+
+Video: [Import CSV](https://youtu.be/7U5WgW_mQ8o)
 
 
-## Loading and Cleaning Data
+## Cleaning Data
 
 ### Data is Often “Messy”
  * Missing data
@@ -138,8 +146,10 @@ http://www.bbc.com/news/technology-37176926
   * Do things with formulae next: insert new column, copy formulae down, select and copy results, paste-as-vaues. Delete extra column.
 
 Video examples: 
-  * week1
-  * week1
+  * [Copy Data to new sheet](https://youtu.be/68onYmEcFdo)
+  * [Filter and Sort video](https://youtu.be/Mdvu1EziwRM)
+  * [Data Text Changes with a Formula](https://youtu.be/RoWn9s-lo_M)
+  * [Data Cleaning with Find/Replace](https://youtu.be/hqP_3A1qcmI)
 
 ***More Articles***
 
@@ -150,16 +160,7 @@ Extensive tutorial:
 http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/   
 
 
-
-
-## Things I Do All the Time For Data Import, Analysis, and Cleaning
-  * Filtering & sorting (goes without saying)
-  * Split Data to More Columns (& Remove Duplicates)
-  * Paste Values, Transpose... (especially working with formulae)
-  * Pivot Tables (invaluable) - we’ll do them next week — they help you clean too, by showing you counts
-  * Conditional Formatting during exploration (we’ll skip for now)
-
-### Split Column (Text-To-Columns)
+### How to Split Columns by A Character (Text-To-Columns)
 It is very common for a raw data set to be in a text format, not excel. Usually it will be in “CSV” or “TSV” format — “comma separated values” or “tab separated values.”
 
 The difference is the character that separates the columns of data — for instance, this is CSV data with 2 columns (and no “header” title on the first row):
@@ -167,7 +168,7 @@ The difference is the character that separates the columns of data — for insta
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/csv_data.png" width="111" height="250">   
 
 Video:
-  * week1
+  * [Split Text to Columns](https://youtu.be/xs4QmuhFgSo)
 
 #### Let’s try the dialog that splits data by a separator value.
 
@@ -220,6 +221,8 @@ Hopefully it will understand the csv format and load it correctly for you:
 ###### If it does not... all of it will be in one column, with no headers.
 
 Then you can split the single column using the same dialogs, accessible from the “text to columns” button (under Data in Mac Excel, maybe home on Windows?)
+
+Video: [Text to Columns](https://youtu.be/xs4QmuhFgSo)
  
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/txt_col.png" width="250" height="73">  
 
@@ -232,9 +235,10 @@ Create two columns from one, using a bunch of tools:
 *How could we split this into Latitude and Longitude?*
 
 #### Hints
-  * Use text-to-column (split by comma)  
+  * Work on a new tab with a copy of your data!
+  * Use text-to-column (split by comma) See video above. 
   * Select each resulting column and replace the “)” or “(“ by nothing 
-  * Label the new columns
+  * Label the new columns as requested.
 
 
 ### Text Replacements
@@ -245,10 +249,6 @@ These are not numbers.
 We can clean by hand and/or using formula or find/replace.
 
 ***See section 4 of this: http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/***
-
-
-
-
 
  
 ## Date/Time types
@@ -311,17 +311,13 @@ Now open that new file you made.
 ##### What do you see about the new “Date” and “Time” columns now?
 
 **This is why we kept the original column with both...**  
-Excel format saves more info than csv. Csv is a text format that preserves **only the text visible** in the cells.   
+Excel format saves more info than csv. CSV is a text format that preserves **only the text visible** in the cells.   
 That’s why format types matter so much in the display in the cell. Make sure you have your data formatted with the info you need.
 
 ### More Advice for Dates
-  * http://www.datacarpentry.org/spreadsheet-ecology-lesson/03-dates-as-data.html
+  * Article: [Dates as Data](http://www.datacarpentry.org/spreadsheet-ecology-lesson/03-dates-as-data/)
   * Store your day, month, year separately (allows some special analysis by each) &/or
   * Be sure text fields are interpreted as date types correctly
-
-
-
-
 
 
 ## FILTERS (AND SORTING)! 
@@ -329,7 +325,7 @@ That’s why format types matter so much in the display in the cell. Make sure y
 
 
 ### Filters – One of the Most Important Tools
-
+  
 On Windows, over on the right side of Home. (Select all your columns first.)  
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/windows_filter.png" width="80" height="100">    
 
@@ -384,8 +380,7 @@ This puts the earliest date/time for the burglaries first, and the latest last.
   
 ![duplicates](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/duplicates.png) 
 
-
-
+Video: [Remove Duplicates](https://youtu.be/SRpAdtKNXSY)
 
 
 ## Formulae
@@ -394,26 +389,29 @@ This puts the earliest date/time for the burglaries first, and the latest last.
 (sadly, you must find the french versions)
 
 Trim removes whitespace!
-Proper makes title case.  
+Proper makes title case.  Example in this video of cleaning a column to fix the case to "proper." (In French, "nompropre".)
+
+Site with formula translations: http://dolf.trieschnigg.nl/excel/index.php
+
+Video: [Changing Text with Formula](https://youtu.be/RoWn9s-lo_M)
 
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/formulae.png" width="400" height="385">    
 
-
-> See video in https://breakingintowallstreet.com/biws/cleaning-up-data-in-excel/ 
+> Also see video in https://breakingintowallstreet.com/biws/cleaning-up-data-in-excel/ 
  
 ### Reminder about formulae cell references
 
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/references.png" width="400" height="132">    
 A2 : relative reference  
 $A2 : fixed column, relative 2   
-$A$2 : fixed col and cell!  
+$A$2 : fixed col and cell!
 
 > http://www.gcflearnfree.org/excel2013/relative-and-absolute-cell-references/2/ 
 
   
 ### Use a formula
 Let’s try to split up the data on the street address for Chicago crimes.  
-Copy the block column onto a new sheet. Enter this formula (but the french version, probably trouver(‘ ‘;A2)... in b2:  
+Copy the block column onto a new sheet. Enter this formula (but the french version, probably "trouve(‘ ‘;A2)"... in b2:  
 
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/find.png" width="300" height="79">
 
@@ -427,6 +425,8 @@ After you finish your formula and get your results, it’s very important to cop
 
 ### Problem with Formulas
 
+Why is it bad to leave formulas in the workbook in your cleaned data?
+
   * They are not obvious to a reader of the sheet - you have to put your mouse in a cell to see them
   * If you move a column or cell, you can destroy the formula without noticing it. (The references will break)
   * It is easy to “mess up” your formula with an accidental click in a cell containing one, and then you have lost important data
@@ -435,7 +435,7 @@ After doing this operation...
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/street_col.png" width="250" height="134">    
 You should have both columns - the original, and the new derived column (pasted as values, no formula in the cell!)
  
-### Saving as csv: Remember Format
+### Saving as CSV: Remember Format
 
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/save.png" width="500" height="505">  
 Then you must say “continue” to the dialogs afterwards.... 
@@ -444,4 +444,11 @@ Then you must say “continue” to the dialogs afterwards....
 
   * When you save as CSV - make sure there are no filters applied.
   * If you save a filtered data table, it will save only the visible rows.
+  * You will save any date strings in the format that is visible. This means you may lose information (minutes, seconds) if you aren't showing enough precision.
   * Save with a new filename, so you don’t overwrite the original data!
+
+Video: [Save as CSV](https://youtu.be/uJ_cSdF8hkk)
+
+After you have saved in CSV format, your workbook is called filename.csv. You will want to save it as an Excel workbook too, to save all the tabs! 
+
+Note: In France/Europe, the format is more commonly ";" delimited, not "," (virgule), because of number formatting.  This is ok too.
