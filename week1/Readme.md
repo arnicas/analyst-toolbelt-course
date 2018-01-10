@@ -153,19 +153,20 @@ The difference is the character that separates the columns of data — for insta
 
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/csv_data.png" width="111" height="250">   
 
-Video:
-  * [Split Text to Columns](https://youtu.be/xs4QmuhFgSo)
 
-#### Let’s try the dialog that splits data by a separator value.
+#### Importing steps:
 
 1. Click on File menu, then “Import....” and make sure this dialog says CSV:
 
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/import_menu.png" width="500" height="353">   
 
-2. If it is “tab separated”, you would choose text.
+2. If it is “tab separated”, you could choose text. But you can also use CSV for tab separated data.
  
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/delimiter1.png" width="500" height="355">   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/delimiter1.png" width="500" height="355">
+
+2.b. Here you specify what the character delimiter is between your data columns. You can type in a special one in "other".
+
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/delimiter2.png" width="500" height="355">   
 
   
@@ -212,7 +213,6 @@ Video: [Text to Columns](https://youtu.be/xs4QmuhFgSo)
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/txt_col.png" width="250" height="73">  
 
 
-
 ## FILTERS (AND SORTING)! 
 :zap: **YOU MUST MASTER THIS.** :zap:   
 
@@ -248,8 +248,11 @@ Open ChiCrimes data and try filters:
 This puts the earliest date/time for the burglaries first, and the latest last.
 
  
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/bulgary_filter.png" width="300" height="368">   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/bulgary_filter.png" width="300" height="368">
+
 *What is the last burglary in this data?*
+
+Reminder: [Filter and Sort video](https://youtu.be/Mdvu1EziwRM)
 
 ###### Exercises in Class:
 
@@ -266,103 +269,8 @@ This puts the earliest date/time for the burglaries first, and the latest last.
 
 *Warning: Don’t forget you might have filters in action and not see your whole data set. To turn off all the filters, just hit the filter button again:*
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/filter_button.png" width="100" height="68"> 
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/filter_button.png" width="100" height="68">
 
-### Useful for counting: Remove Duplicates
-
-A useful trick - removing duplicates to see what your unique field values are.
-  
-![duplicates](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/duplicates.png) 
-
-Video: [Remove Duplicates](https://youtu.be/SRpAdtKNXSY)
-
-## Cleaning Data
-
-### Data is Often “Messy”.
-
- * Missing data
- * “Bad” values for missing data (e.g., a string code)
- * Non-normalized (names not upper case, “Street” vs “St.”)
- * Misspellings (or inconsistent spellings)
- * Dates aren’t of type “date” but of type “text” or “general” 
- * Merged fields — entire address in one cell, etc
-
-***Recent Example***
-Gene study errors blamed on Excel types.  
-http://www.bbc.com/news/technology-37176926
-
-We will "clean" it in the homework and now, using a copy of the data in a new tab.
- 
-### Basic Approach to Cleaning
-
->The basic steps for cleaning data are as follows:
->
->1. Import the data from an external data source.
->2. Create a backup copy of the original data in a separate workbook (or tab)
->3. Ensure that the data is in tabular format of rows and columns with: similar data in each column al columns and rows visible, and no blank rows within the range. For best resultats, use an Excel table.
->4. Do tasks that don't reaquire column manipulation first, such as spell-checking or using the Find and Replace dialog box.
->5. Next, do tasks that do require column manipulation. The general steps for manipulating a column are: 
->      * a. Insert a new column (B) next to the original colun (A) that needs cleaning.
->      * b. Add a formulat that will transform the data at the top of the new column (B).
->      * c. Fill down the formula that will transform the data at the top of the new column (B). In an Excel table, a calculated column is automatically created  with values filled down.
->      * d. Select the new column (B), copy it, and then paste as values into the new column (B).
->      * e. Remove the original column (A), which converts the new column from B to A.
-
-*- https://support.office.com/en-us/article/Top-ten-ways-to-clean-your-data-2844b620-677c-47a7-ac3e-c2e157d1db19 -*
-
-### Recap of that:
-  * Copy raw data to a new tab/sheet or workbook. 
-  * Work on that copy to clean it.
-  * Use filters, do find/replace, etc on existing columns
-  * Do things with formulae next: insert new column, copy formulae down, select and copy results, paste-as-vaues. Delete extra column.
-
-Video examples: 
-  * [Copy Data to new sheet](https://youtu.be/68onYmEcFdo)
-  * [Data Cleaning with Find/Replace](https://youtu.be/hqP_3A1qcmI)
-  * [Data Text Changes with a Formula](https://youtu.be/RoWn9s-lo_M)
-
-***More Articles***
-
-https://breakingintowallstreet.com/biws/cleaning-up-data-in-excel/   
-(strong reference sheets for keyboard shortcuts)   
-http://trumpexcel.com/2014/08/clean-data-in-excel/   
-Extensive tutorial:  
-http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/   
-
-
-
-### Cleaning: Text Replacements
-
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/price.png" width="300" height="333"> 
-
-These are not numbers. 
-We can clean by hand and/or using formula or find/replace.
-
-***See Problem 4 of this: http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/***
-
-Also see video: [Clean column with replace](https://youtu.be/hqP_3A1qcmI)
-
-
-### Cleaning: How to Split Columns by A Character (Text-To-Columns)
-
-You usually want one item of data per column.  Sometimes you need to simplify the data you have loaded, and separate items.
-
-For Homework, you need to split this column into two.   
-Create two columns from one, using a bunch of tools:
-
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/location.png" width="374" height="400">  
-
-*How could we split this into Latitude and Longitude?*
-
-#### Hints
-  * Work on a new tab with a copy of your data!
-  * Use text-to-column (split by comma) See video above. 
-  * Select each resulting column and replace the “)” or “(“ by nothing 
-  * Label the new columns as requested.
-
-See video: [Text to Columns](https://youtu.be/xs4QmuhFgSo)
-
- 
 ## Verifying: Date/Time types
 
 The data type is very important in Excel.
@@ -434,6 +342,99 @@ That’s why format types matter so much in the display in the cell. Make sure y
   * Store your day, month, year separately (allows some special analysis by each) &/or
   * Be sure text fields are interpreted as date types correctly
 
+### Useful for counting: Remove Duplicates
+
+A useful trick - removing duplicates to see what your unique field values are.
+  
+![duplicates](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/duplicates.png) 
+
+Video: [Remove Duplicates](https://youtu.be/SRpAdtKNXSY)
+
+## Cleaning Data
+
+### Data is Often “Messy”.
+
+ * Missing data
+ * “Bad” values for missing data (e.g., a string code)
+ * Non-normalized (names not upper case, “Street” vs “St.”)
+ * Misspellings (or inconsistent spellings)
+ * Dates aren’t of type “date” but of type “text” or “general” 
+ * Merged fields — entire address in one cell, etc
+
+***Recent Example***
+Gene study errors blamed on Excel types.  
+http://www.bbc.com/news/technology-37176926
+
+We will "clean" it in the homework and now, using a copy of the data in a new tab.
+ 
+### Basic Approach to Cleaning
+
+>The basic steps for cleaning data are as follows:
+>
+>1. Import the data from an external data source.
+>2. Create a backup copy of the original data in a separate workbook (or tab)
+>3. Ensure that the data is in tabular format of rows and columns with: similar data in each column al columns and rows visible, and no blank rows within the range. For best resultats, use an Excel table.
+>4. Do tasks that don't reaquire column manipulation first, such as spell-checking or using the Find and Replace dialog box.
+>5. Next, do tasks that do require column manipulation. The general steps for manipulating a column are: 
+>      * a. Insert a new column (B) next to the original colun (A) that needs cleaning.
+>      * b. Add a formulat that will transform the data at the top of the new column (B).
+>      * c. Fill down the formula that will transform the data at the top of the new column (B). In an Excel table, a calculated column is automatically created  with values filled down.
+>      * d. Select the new column (B), copy it, and then paste as values into the new column (B).
+>      * e. Remove the original column (A), which converts the new column from B to A.
+
+*- https://support.office.com/en-us/article/Top-ten-ways-to-clean-your-data-2844b620-677c-47a7-ac3e-c2e157d1db19 -*
+
+### Recap of that:
+  * Copy raw data to a new tab/sheet or workbook. 
+  * Work on that copy to clean it.
+  * Use filters, do find/replace, etc on existing columns
+  * Do things with formulae next: insert new column, copy formulae down, select and copy results, paste-as-vaues. Delete extra column.
+
+Video examples: 
+  * [Copy Data to new sheet](https://youtu.be/68onYmEcFdo)
+  * [Data Cleaning with Find/Replace](https://youtu.be/hqP_3A1qcmI)
+  * [Data Text Changes with a Formula](https://youtu.be/RoWn9s-lo_M)
+
+***More Articles***
+
+https://breakingintowallstreet.com/biws/cleaning-up-data-in-excel/   
+(strong reference sheets for keyboard shortcuts)   
+http://trumpexcel.com/2014/08/clean-data-in-excel/   
+Extensive tutorial:  
+http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/   
+
+
+### Cleaning: Text Replacements
+
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/price.png" width="300" height="333"> 
+
+These are not numbers. 
+We can clean by hand and/or using formula or find/replace.
+
+***See Problem 4 of this: http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/***
+
+Also see video: [Clean column with replace](https://youtu.be/hqP_3A1qcmI)
+
+
+### Cleaning: How to Split Columns by A Character (Text-To-Columns)
+
+You usually want one item of data per column.  Sometimes you need to simplify the data you have loaded, and separate items.
+
+For Homework, you need to split this column into two.   
+Create two columns from one, using a bunch of tools:
+
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/location.png" width="374" height="400">  
+
+*How could we split this into Latitude and Longitude?*
+
+#### Hints
+  * Work on a new tab with a copy of your data!
+  * Use text-to-column (split by comma) See video above. 
+  * Select each resulting column and replace the “)” or “(“ by nothing 
+  * Label the new columns as requested.
+
+See video: [Text to Columns](https://youtu.be/xs4QmuhFgSo)
+
 ## Formulae
 
 ### Text and Data Formulae to Clean 
@@ -467,7 +468,7 @@ Copy the block column onto a new sheet. Enter this formula (but the french versi
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/find.png" width="300" height="79">
 
 
-### Paste As Values  
+### After Formula Use: Paste As Values  
 
 After you finish your formula and get your results, it’s very important to copy the data and paste it as values — because leaving a formula in a cell can cause bad problems.
  
@@ -486,7 +487,7 @@ After doing this operation...
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/street_col.png" width="250" height="134">    
 You should have both columns - the original, and the new derived column (pasted as values, no formula in the cell!)
  
-### Saving as CSV: Remember Format
+## Saving as CSV: Remember Format
 
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/save.png" width="500" height="505">  
 Then you must say “continue” to the dialogs afterwards.... 
