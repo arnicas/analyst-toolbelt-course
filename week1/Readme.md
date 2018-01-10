@@ -14,8 +14,14 @@
 http://www.datascienceweekly.org/articles/you-can-be-a-data-analyst-without-doing-heavy-math
 https://www.quora.com/What-Excel-skills-and-formulas-does-a-business-analyst-need
 
-This course is not much about math, and more about data organization, cleaning, and tools available to you to save you a lot of time.
-   
+This course is not much about math, and more about data organization, cleaning, and tools available to you to save you a lot of time.  Also, to help you on the daily business analysts's job.
+
+
+## Good Spreadsheet Behavior
+
+Please read: [Data Organization in Spreadsheets, Broman & Woo](http://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989)
+
+
 ### Good practices and bad: multiple tables on one sheet is bad.
 <img src="week1_pic/good_bad.png" width="600" height="291">
 
@@ -31,7 +37,7 @@ This course is not much about math, and more about data organization, cleaning, 
 
 **3 Worksheets to separate your concerns:**
 
-1. Raw data is just rows and columns.
+1. Raw data is just text rows and columns. No colors, no formulas, no merged cells.
 2. Analysis: color, tables, formula referring to data sheet,... 
 3. Charts 
 
@@ -55,6 +61,19 @@ More: http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes
   * The stuff that is saved in CSV files (plain text) is the raw data.
  
  :zap: Questions about this are on the quiz. :zap:
+
+
+### Why Does Raw Data Matter? 
+
+* Raw data is useable in multiple types of analysis, including reading in code like Python, R, or inserting into a database.
+* Well-formatted data can be used in Pivot tables in Excel -- data with "extras" like summary rows or merged columns can't be used in pivots easily.
+* Raw data can be saved as a simple text format (like CSV or TSV) for exchanges with other programs/people.
+* Data that is not "raw" contains things can produce errors, like formulas, or hides important information (hidden columns and rows, formatting).
+
+**Raw data is as close to plain text form as possible.  If you have pretty table formatting, colors, etc, your data is NOT RAW.**
+
+Please read: [Data Organization in Spreadsheets, Broman & Woo](http://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989)
+
 
 ### Key UI Tools You Must Understand in Excel for Data Cleaning & Reporting
 
