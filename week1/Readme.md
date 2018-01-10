@@ -15,10 +15,10 @@ https://www.quora.com/What-Excel-skills-and-formulas-does-a-business-analyst-nee
 This course is not much about math, and more about data organization, cleaning, and tools available to you to save you a lot of time.
    
 ### Good practices and bad: multiple tables on one sheet is bad.
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/good_bad.png" width="600" height="291">
+<img src="week1_pic/good_bad.png" width="600" height="291">
 
 
-survey_data_spreadsheet_messy.xlsx 
+See survey_data_spreadsheet_messy.xlsx 
 
 ### Separating data, analysis and presentation
 > One of the most important concepts in a data model is the separation of data, analyis and presentation. The fundamental idea is that you don't want your data to become too tied into any one particular way of presenting that data. 
@@ -137,6 +137,10 @@ http://www.bbc.com/news/technology-37176926
   * Use filters, do find/replace, etc on existing columns
   * Do things with formulae next: insert new column, copy formulae down, select and copy results, paste-as-vaues. Delete extra column.
 
+Video examples: 
+  * week1
+  * week1
+
 ***More Articles***
 
 https://breakingintowallstreet.com/biws/cleaning-up-data-in-excel/   
@@ -144,7 +148,6 @@ https://breakingintowallstreet.com/biws/cleaning-up-data-in-excel/
 http://trumpexcel.com/2014/08/clean-data-in-excel/   
 Extensive tutorial:  
 http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/   
-
 
 
 
@@ -162,6 +165,9 @@ It is very common for a raw data set to be in a text format, not excel. Usually 
 The difference is the character that separates the columns of data — for instance, this is CSV data with 2 columns (and no “header” title on the first row):
 
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/csv_data.png" width="111" height="250">   
+
+Video:
+  * week1
 
 #### Let’s try the dialog that splits data by a separator value.
 
