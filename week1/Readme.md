@@ -11,15 +11,23 @@
   * It can be used for reporting, analysis, charts, 2 interactivity...
 
 ### Data Analysis Skills
-http://www.datascienceweekly.org/articles/you-can-be-a-data-analyst-without-doing-heavy-math
-https://www.quora.com/What-Excel-skills-and-formulas-does-a-business-analyst-need
 
-This course is not much about math, and more about data organization, cleaning, and tools available to you to save you a lot of time.  Also, to help you on the daily business analysts's job.
+A couple background references on being a data analyst:
+* [You Can Be a Data Analyst Without Doing Heavy Math](http://www.datascienceweekly.org/articles/you-can-be-a-data-analyst-without-doing-heavy-math)
+* [What Excel Skills Does a Business Analyst Need - Quora](https://www.quora.com/What-Excel-skills-and-formulas-does-a-business-analyst-need)
+
+
+This course is not much about math and stats, and more about data organization, cleaning, and tools needed for basic functional data analysis in the office. We start with important Excel skills that I find many people don't know, and then we move on to SQL (**the most important analyst skill**), and a visual analysis and reporting tool, Tableau.
 
 
 ## Good Spreadsheet Behavior
 
-Please read: [Data Organization in Spreadsheets, Broman & Woo](http://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989)
+Most of you are used to pretty formatted tables in spreadsheets, and spend a lot of time making things look nice.  This course is not about that, and in fact, I frown hard at it. If you submit homework with pretty table formatting, I will give you a lower grade.
+
+Your first job is to understand what the "data" is in a spreadsheet. And how to work with it. And how to save it for others to work with it.
+
+Please read: [Data Organization in Spreadsheets, Broman & Woo](http://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989). This is on the quiz.
+
 
 
 ### Good practices and bad: multiple tables on one sheet is bad.
@@ -33,24 +41,26 @@ Please read: [Data Organization in Spreadsheets, Broman & Woo](http://www.tandfo
 >
 >For instance, I've seen Excel workbooks that contain 12 tabs, each reprensenting a month. On each tab, data for that month is listed along with formulas, pivot tables, and summaries. Now what happens when you're asked to provide summary by quarter? Do you add more formuas and tabs to consolidate the data on each of the month tabs ? the fundamental problem in this scenario is that the tabs actually represent data values that are fused into the presentation of your analysis
 
-  *– Excel 2007 Dashboards and Reports for Dummies –*
+  *– from the excellent [Excel 2007 Dashboards and Reports for Dummies](https://www.amazon.com/Excel-2007-Dashboards-Reports-Dummies/dp/0470228148/ref=sr_1_2?ie=UTF8&qid=1515603609&sr=8-2&keywords=excel+2007+dashboard) –*
 
-**3 Worksheets to separate your concerns:**
+**You Need Minimally 3 Worksheets to separate your concerns:**
 
-1. Raw data is just text rows and columns. No colors, no formulas, no merged cells.
-2. Analysis: color, tables, formula referring to data sheet,... 
-3. Charts 
-
+1. Raw data is just text rows and columns. No colors, no formulas, no merged cells.  Single table.
+2. Analysis: color, tables, formula referring to the data sheet,... 
+3. Charts, again on another sheet.
 
 <img src="week1_pic/Data.png" width="600" height="549">
 
-### A few “bad” things for raw data sheets
-  * Color coded cells without clear data column values (why were they colored?) Merged cells
-  * Header rows that aren’t at the top of the data
+### Common mistakes in data in spreadsheets:
+
+  * Color coded cells without clear data column values (why were they colored?)
+  * Merged cells
+  * Header rows that aren’t at the top of the data 
   * Multiple tables on one sheet
   * Too many tabs...
-  * Metadata about the data on the same sheet Spaces in column headers
-  * Bad “null” values
+  * Metadata about the data on the same sheet
+  * Spaces in column headers
+  * Bad “null” values (don't have empty cells)
   * Multiple pieces of info in the same cell
 
 More: http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/
@@ -74,8 +84,20 @@ More: http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes
 
 Please read: [Data Organization in Spreadsheets, Broman & Woo](http://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989)
 
+Among their advice:
 
-### Key UI Tools You Must Understand in Excel for Data Cleaning & Reporting
+* write dates like YYYY-MM-DD, 
+* don't leave any cells empty,
+* put just one thing in a cell, 
+* organize the data as a single rectangle (with subjects as rows and variables as columns, and with a single header row), 
+* create a data dictionary, 
+* don't include calculations in the raw data files, 
+* don't use font color or highlighting as data, 
+* choose good names for things,
+* and save the data in plain text file (e.g., CSV or TSV format).
+
+
+## Key UI Tools You Must Understand in Excel for Data Cleaning & Reporting
 
  * Sorting
  * Filtering columns
@@ -86,7 +108,7 @@ Please read: [Data Organization in Spreadsheets, Broman & Woo](http://www.tandfo
  * Pivot tables (tables croisées) -- we will do next week.
 
 
-## Excel UI Tools
+### Excel UI Tools
 
 #### Windows looks very different.  (It’s actually better, too.)
 
@@ -98,7 +120,6 @@ Insert Tab has charts/pivots on it....
 
 The Data tab....   
 ![Data_tab_Windows](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Data_tab_W.png)
-
 
 #### Mac Excel is different
 Right click on top toolbar to customize it...   
@@ -120,16 +141,81 @@ The Data Tab has filters, Pivots, Text to Columns, etc...
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/check_tabs.png" width="400" height="330">  
 
 
-## Loading CSV Data
+## CSV Data: Importing Text Data Into Excel
 
 We need some data to start with.  A common "raw data" file format is CSV, or "comma separated values."  (In France it is usually ";" separated.)
 
 Video: [Import CSV](https://youtu.be/7U5WgW_mQ8o)
 
 
+## FILTERS (AND SORTING)! 
+:zap: **YOU MUST MASTER THIS.** :zap:   
+
+[Filter and Sort video](https://youtu.be/Mdvu1EziwRM)
+  
+On Windows, over on the right side of Home. (Select all your columns first.)  
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/windows_filter.png" width="80" height="100">    
+
+Mac - the DATA tab.
+![mac_filter](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/mac_filter.png)   
+
+**You should be sure you select ALL the Columns before you pick the Filter icon.**
+
+1. Click this triangle, it will highlight all of them.
+2. THEN select the filter icon (it will be on Data tab or Home).
+3. You should see the little sorting arrows on each column if you did it right.
+![filter_step](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/filter_step.png) 
+
+###### Exercises
+Import the CSV version of ChiCrimes data (Chicago crime data), if you haven't yet.
+
+Open ChiCrimes data and try filters:
+
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/filter_chicrimes.png" width="250" height="367">   
+
+*A nice feature in recent Excels – saves you time and helps you troubleshoot your data:*     
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/bottom_toolbart.png" width="300" height="454">    
+*On Mac, you can pick one to show - sum is default, I think. Change to count.*
+
+### Filters can be combined with sorting to get answers to questions.
+1. Filter to show only Primary Type Burglary.
+2. Then sort by Date, Ascending.
+This puts the earliest date/time for the burglaries first, and the latest last.
+
+ 
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/bulgary_filter.png" width="300" height="368">   
+*What is the last burglary in this data?*
+
+###### Exercises:
+
+ So, Using Filters, Tell Me... ln the Chicago crimes:  
+  * What dates does this data cover?
+  * How many offenses occurred at Animal Hospitals?
+  * Did they occur at the same one?
+  * What about at Airports? Did they occur at the same one?
+  * Find all offenses that occurred anywhere on Whipple Street:   
+  (Hint : Use a search or text filter.) 
+    * How many where there? 
+    * How many Whipple locations are there?
+  * Look at just Sexual Offenses. Can you see anything interesting here?
+
+*Warning: Don’t forget you might have filters in action and not see your whole data set. To turn off all the filters, just hit the filter button again:*
+
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/filter_button.png" width="100" height="68"> 
+
+### Useful for counting: Remove Duplicates
+
+A useful trick - removing duplicates to see what your unique field values are.
+  
+![duplicates](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/duplicates.png) 
+
+Video: [Remove Duplicates](https://youtu.be/SRpAdtKNXSY)
+
+
 ## Cleaning Data
 
-### Data is Often “Messy”
+### Data is Often “Messy”.
+
  * Missing data
  * “Bad” values for missing data (e.g., a string code)
  * Non-normalized (names not upper case, “Street” vs “St.”)
@@ -140,13 +226,15 @@ Video: [Import CSV](https://youtu.be/7U5WgW_mQ8o)
 ***Recent Example***
 Gene study errors blamed on Excel types.  
 http://www.bbc.com/news/technology-37176926
+
+We will "clean" it in the homework and now, using a copy of the data in a new tab.
  
 ### Basic Approach to Cleaning
 
 >The basic steps for cleaning data are as follows:
 >
 >1. Import the data from an external data source.
->2. Create a backup copy of the original data in a separate workbook
+>2. Create a backup copy of the original data in a separate workbook (or tab)
 >3. Ensure that the data is in tabular format of rows and columns with: similar data in each column al columns and rows visible, and no blank rows within the range. For best resultats, use an Excel table.
 >4. Do tasks that don't reaquire column manipulation first, such as spell-checking or using the Find and Replace dialog box.
 >5. Next, do tasks that do require column manipulation. The general steps for manipulating a column are: 
@@ -166,9 +254,8 @@ http://www.bbc.com/news/technology-37176926
 
 Video examples: 
   * [Copy Data to new sheet](https://youtu.be/68onYmEcFdo)
-  * [Filter and Sort video](https://youtu.be/Mdvu1EziwRM)
-  * [Data Text Changes with a Formula](https://youtu.be/RoWn9s-lo_M)
   * [Data Cleaning with Find/Replace](https://youtu.be/hqP_3A1qcmI)
+  * [Data Text Changes with a Formula](https://youtu.be/RoWn9s-lo_M)
 
 ***More Articles***
 
@@ -339,67 +426,6 @@ That’s why format types matter so much in the display in the cell. Make sure y
   * Be sure text fields are interpreted as date types correctly
 
 
-## FILTERS (AND SORTING)! 
-:zap: **YOU MUST MASTER THIS.** :zap:   
-
-
-### Filters – One of the Most Important Tools
-  
-On Windows, over on the right side of Home. (Select all your columns first.)  
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/windows_filter.png" width="80" height="100">    
-
-Mac - the DATA tab.
-![mac_filter](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/mac_filter.png)   
-
-**You should be sure you select ALL the Columns before you pick the Filter icon.**
-
-
-1. Click this triangle, it will highlight all of them.
-2. THEN select the filter icon (it will be on Data tab or Home).
-3. You should see the little sorting arrows on each column if you did it right.
-![filter_step](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/filter_step.png) 
-
-###### Exercises
-Import the CSV version of ChiCrimes data (Chicago crime data).
-Open ChiCrimes data and try filters:
-
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/filter_chicrimes.png" width="250" height="367">   
-
-*A nice feature in recent Excels – saves you time and helps you troubleshoot your data:*     
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/bottom_toolbart.png" width="300" height="454">    
-*On Mac, you can pick one to show - sum is default, I think. Change to count.*
-
-### Filters can be combined with sorting to get answers to questions.
-1. Filter to show only Primary Type Burglary.
-2. Then sort by Date, Ascending.
-This puts the earliest date/time for the burglaries first, and the latest last.
-
- 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/bulgary_filter.png" width="300" height="368">   
-*What is the last burglary in this data?*
-
-###### Exercises
- So, Using Filters, Tell Me... ln the Chicago crimes:  
-  * What dates does this data cover?
-  * How many offenses occurred at Animal Hospitals?
-  * Did they occur at the same one?
-  * What about at Airports? Did they occur at the same one?
-  * Find all offenses that occurred anywhere on Whipple Street:   
-  (Hint : Use a search or text filter.) 
-    * How many where there? 
-    * How many Whipple locations are there?
-  * Look at just Sexual Offenses. Can you see anything interesting here?
-
-*Warning: Don’t forget you might have filters in action and not see your whole data set. To turn off all the filters, just hit the filter button again:*
-
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/filter_button.png" width="100" height="68"> 
-
-
-### Useful for counting: Remove Duplicates
-  
-![duplicates](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/duplicates.png) 
-
-Video: [Remove Duplicates](https://youtu.be/SRpAdtKNXSY)
 
 
 ## Formulae
