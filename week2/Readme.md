@@ -44,7 +44,7 @@ If you have items in your builder, drag them “out” to empty it. Goal is to s
 
 The parts of the builder dialog:
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/6.png">   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/6.png" width="400" height="415">   
 
 5. Do this: Drag “Primary Type” into both Rows and Values:
 
