@@ -12,11 +12,11 @@
 ### Pivot Tables like Tall, Raw Data   
 ***Hunting Accidents file...***
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/1.png">  
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/1.png" width="900" height="425">  
 
  Pivot Input data is as on the right...
 “Wide” data 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/2.png">  
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/2.png" width="600" height="410">  
                                                     “Tall” or “Long” data   
 
 This is actually a tabular summary on the left. Pivots want the right side of this pic. (Pic from Spreadsheet page link below.)
@@ -29,18 +29,18 @@ This is actually a tabular summary on the left. Pivots want the right side of th
 3. Also look at the menus (check Insert and Data menus).  
 
 You should get the dialog:  
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/3.png">   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/3.png" width="600" height="461">   
  *Note: Every column needs a label for it to work!*
 
 4. Click OK (after making sure it shows your selection.)  
 
 On Mac, it makes a “default” pivot table.   
 It should show the “Builder” open. The command to open it is on top on the ribbon (in case you lose it/close it).
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/4.png">   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/4.png" width="600" height="439">   
  
 If you have items in your builder, drag them “out” to empty it. Goal is to start from empty:
  
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/5.png">   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/5.png" width="600" height="445">   
 
 The parts of the builder dialog:
 
@@ -48,7 +48,7 @@ The parts of the builder dialog:
 
 5. Do this: Drag “Primary Type” into both Rows and Values:
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/7.png">   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/7.png" width="600" height="559">   
 
 By default, it produces a Count of each Primary Value.  
 And the row labels are alphabetic.  
@@ -57,7 +57,7 @@ And the row labels are alphabetic.
 
 This is another data set: *Hunting Injury Data – VictimACTIVITY (Victim Activity) by Count of WOUNDs*  
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/8.png">   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/8.png" width="600" height="676">   
 
 Might decide to group these – by fixing the label in a copy of the raw data.
  
@@ -65,21 +65,21 @@ Might decide to group these – by fixing the label in a copy of the raw data.
 On Windows, right click inside a cell in Values  
 On Mac, click the Sort button in the Data tab.  
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/9.png">   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/9.png" width="600" height="644">   
 
 ###### Example 1- show the top primary crimes in order, descending
  
  Let’s do that with chi2.csv, our Chicago dataset.
  
-*Result:* 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/10.png">   
+*Result:*   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/10.png" width="250" height="551">   
 
   * Top 10... on Windows:
 Right click on first column item, and you’ll see Filter > Top 10...
 (or filter by other options!)  
 Get the top 10 crime types.   
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/11.png">   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/11.png" width="400" height="556">   
 
 
   * Top 10 on Mac:  
@@ -101,29 +101,31 @@ Now Add “Arrest” to columns
 Make Arrests your columns, and the primary type the rows. Sort by Arrests, True.
  
 *Result:*
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/14.png">   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/14.png" width="300" height="337">   
 
 
 ### Filters
 If you want to dig into a particular type of data, you can make a filter.   
 Drag “Primary Type” into the filters area — it will appear above the pivot results —
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/15.png">   
 
-and set it to Narcotics.
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/16.png">   
+
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/15.png" width="282" height="450">   
+
+and set it to Narcotics.   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/16.png" width="200" height="93">   
 
 ### Nested Rows
 If you want to learn more about each ROW (or column) of data, you can add another variable to the same group.       
 Try adding Location Description to the Rows under “Street”:  
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/17.png">   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/17.png" width="400" height="618">   
 
 **Feel free to change the filter!**
  
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/18.png">   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/18.png" width="400" height="307">   
 
  Now try...
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/19.png">   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/19.png" width="400" height="436">   
 
  What’s interesting there?
  
@@ -146,13 +148,13 @@ For instance, if you have numeric data like Sales figures over time, or rainfall
 
 3. Now sort by Values, descending.
 Call this tab “annual_sum”
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/21.png">     
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/21.png" width="200" height="403">     
 
 
 4. Now do average per year:
 If you sort descending by Total, what’s the top year?  
 Call this tab “annual_avg"
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/22.png">   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/22.png" width="200" height="280">   
 
 5. How would we get to the original data we “unpivoted”?
 Call this tab “by_month”
@@ -168,12 +170,12 @@ right click to open the group option.
 
 On Windows: try the menu above
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/24.png"> 
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/24.png" width="400" height="404"> 
  
 1. Group Years by Centuries
 Call this tab century_totals
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/25.png"> 
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/25.png" width="800" height="417"> 
 
 2. Now filter by months...
 Set the filter to Jan, Feb, and Dec.   
