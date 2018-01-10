@@ -453,10 +453,12 @@ Video: [Changing Text with Formula](https://youtu.be/RoWn9s-lo_M)
  
 ### Reminder about formulae cell references
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/references.png" width="400" height="132">    
-A2 : relative reference  
-$A2 : fixed column, relative 2   
-$A$2 : fixed col and cell!
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/references.png" width="400" height="132">
+
+Remember: 
+  * A2 : relative reference : both may change when you copy the formula.
+  * $A2 : fixed column, relative 2 row -- will change when you copy row.
+  * $A$2 : fixed column and cell, will not change when you copy formula.
 
 > http://www.gcflearnfree.org/excel2013/relative-and-absolute-cell-references/2/ 
 
