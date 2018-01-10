@@ -15,8 +15,7 @@ https://www.quora.com/What-Excel-skills-and-formulas-does-a-business-analyst-nee
 This course is not much about math, and more about data organization, cleaning, and tools available to you to save you a lot of time.
    
 ### Good practices and bad: multiple tables on one sheet is bad.
-![Good_bad_practices](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/good_bad.png)
-
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/good_bad.png" width="600" height="291">
 
 
 survey_data_spreadsheet_messy.xlsx 
@@ -36,8 +35,8 @@ survey_data_spreadsheet_messy.xlsx
 2. Analysis: color, tables, formula referring to data sheet,... 
 3. Charts 
 
-![Data][4%](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Data.png) 
 
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Data.png" width="600" height="549">
 
 ### A few “bad” things for raw data sheets
   * Color coded cells without clear data column values (why were they colored?) Merged cells
@@ -85,10 +84,11 @@ The Data Tab has filters, Pivots, Text to Columns, etc...
 (under File **menu on Windows**, or the **main app menu on Mac**)
 
   * Click on Ribbon   
-  ![Ribbon](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Ribbon.png)
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Ribbon.png" width="400" height="322">   
 
   * Be sure to scroll this window and check all of them.  
-  ![check_tabs](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/check_tabs.png)
+
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/check_tabs.png" width="400" height="330">   
 
 ### Key UI Tools You Must Understand
  * Sorting
@@ -161,45 +161,50 @@ It is very common for a raw data set to be in a text format, not excel. Usually 
 
 The difference is the character that separates the columns of data — for instance, this is CSV data with 2 columns (and no “header” title on the first row):
 
-![csv_data](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/csv_data.png)
-
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/csv_data.png" width="111" height="250">   
 
 #### Let’s try the dialog that splits data by a separator value.
 
 1. Click on File menu, then “Import....” and make sure this dialog says CSV:
 
-![import_menu](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/import_menu.png)
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/import_menu.png" width="500" height="353">   
 
 2. If it is “tab separated”, you would choose text.
  
-![delimiter1](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/delimiter1.png)
 
-![delimiter2](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/delimiter2.png)
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/delimiter1.png" width="500" height="355">   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/delimiter2.png" width="500" height="355">   
+
+
   
 3. The “Types” Dialog:
 
 
 You can also change your data types after importing, but there is one important issue here: **decimal number format**.  
 
-![dialog_types](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/dialog_types.png)
+
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/dialog_types.png" width="500" height="440">   
 
 Click on “Advanced...”
 
 This issue caused a lot of difficulty to students last semester.  
-![comma_issue](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/comma_issues.png)
+
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/comma_issues.png" width="304" height="200">  
 
 :zap: :zap:  **All of my data files use international formatting for decimals: “point” or “dot”, not “comma.”** :zap: :zap:   
 Make sure you change this to match my settings when you import text data with numbers.
 
 4. The last dialog - if you are in a blank new workbook, use $A$1:
  
-![import_data](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/import_data.png)
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/import_data.png" width="400" height="202">  
+
 
 #### alternatively... some Excel versions can open CSV files for you:
 
 In a blank workbook, click File menu, choose Open.... and change the dialog to show or enable “All files”:  
 
-![all_files](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/all_files.png)
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/all_files.png" width="500" height="403">  
+
 
 Navigate to and click on **ChiCrimes_Chicago2008.csv** to open it.   
 Hopefully it will understand the csv format and load it correctly for you:
@@ -210,26 +215,25 @@ Hopefully it will understand the csv format and load it correctly for you:
 
 Then you can split the single column using the same dialogs, accessible from the “text to columns” button (under Data in Mac Excel, maybe home on Windows?)
  
-![txt_col](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/txt_col.png)
-
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/txt_col.png" width="250" height="73">  
 
 ### For Homework,   
 You need to split this column into two.   
 Create two columns from one, using a bunch of tools:
 
-![location](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/location.png)
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/location.png" width="374" height="400">  
 
 *How could we split this into Latitude and Longitude?*
 
 #### Hints
-  * Use text-to-column (split by comma)
+  * Use text-to-column (split by comma)  
   * Select each resulting column and replace the “)” or “(“ by nothing 
   * Label the new columns
 
 
 ### Text Replacements
 
-![price](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/price.png)
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/price.png" width="300" height="333"> 
 
 These are not numbers.  
 We can clean by hand and/or using formula or find/replace.
@@ -246,15 +250,16 @@ We can clean by hand and/or using formula or find/replace.
 The data type is very importantin Excel.
 
 Put your mouse in a column, and check the type in this dropdown.  
-![types](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/types.png)
-  
+
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/types.png" width="350" height="225">  
+
 ### Dates - Beware: 
 When we import from CSV (or other text formats), Excel may guess “wrong” for the date/time fields.
 
 > **A common problem**  
 > One issue people frequently run into is that Excel occasionally misinterprets text fiels as dates.  
 > An example is here :  
-> ![Excel](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Excel.png)  
+> <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Excel.png" width="300" height="89">   
 > Be careful when entering dates, especially if you are importing from other data sources, to make sure that you "Jan-13" is being stored as January 13, 2013 !
 ***- http://www.exceltactics.com/definitive-guide-using-dates-times-excel/ -***
  
@@ -273,18 +278,18 @@ You must select the entire column, not just a single cell!
 Do that by clicking the C on top.  
 Then choose “Custom...”
  
-![custom_format](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/custom_format.png)
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/custom_format.png" width="600" height="371">   
 
 You should have a date option that includes AM/PM in the time.
 
-![am_pm_dates](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/am_pm_dates.png)
- 
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/am_pm_dates.png" width="500" height="494">   
 
 ###### What if we wanted the date and time in different columns?
 Hint: Copy the Date column to 2 new columns. Reformat them.  
 Rename the original col to “date-time” and the other 2 to “Date” and “Time”
 Work on doing this now...   
-![date](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/date.png)  
+  
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/date.png" width="350" height="305">   
 Notice that when you mouse in a cell, you see the full info.
  
 
@@ -292,7 +297,7 @@ Notice that when you mouse in a cell, you see the full info.
   * Save As...  
   * Pick format CSV  
   * Give it the name “chi2.csv” 
- ![chi_csv](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/chi_csv.png)   
+ <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/chi_csv.png" width="300" height="131">   
 *Note: you are going to upload this file, so make sure you do this and work in it now.*
  
 Now open that new file you made.
@@ -320,10 +325,10 @@ That’s why format types matter so much in the display in the cell. Make sure y
 ### Filters – One of the Most Important Tools
 
 On Windows, over on the right side of Home. (Select all your columns first.)  
-![windows_filter](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/windows_filter.png)  
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/windows_filter.png" width="80" height="100">    
 
 Mac - the DATA tab.
-![mac_filter](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/mac_filter.png)  
+![mac_filter](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/mac_filter.png)   
 
 **You should be sure you select ALL the Columns before you pick the Filter icon.**
 
@@ -337,19 +342,19 @@ Mac - the DATA tab.
 Import the CSV version of ChiCrimes data (Chicago crime data).
 Open ChiCrimes data and try filters:
 
-![filter_chicrimes](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/filter_chicrimes.png) 
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/filter_chicrimes.png" width="250" height="367">   
 
-*A nice feature in recent Excels – saves you time and helps you troubleshoot your data:  
-![bottom_toolbart](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/bottom_toolbart.png)   
-On Mac, you can pick one to show - sum is default, I think. Change to count.*
+*A nice feature in recent Excels – saves you time and helps you troubleshoot your data:*     
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/bottom_toolbart.png" width="300" height="454">    
+*On Mac, you can pick one to show - sum is default, I think. Change to count.*
 
 ### Filters can be combined with sorting to get answers to questions.
 1. Filter to show only Primary Type Burglary.
 2. Then sort by Date, Ascending.
 This puts the earliest date/time for the burglaries first, and the latest last.
 
-![bulgary_filter](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/bulgary_filter.png) 
-
+ 
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/bulgary_filter.png" width="300" height="368">   
 *What is the last burglary in this data?*
 
 ###### Exercises
@@ -365,8 +370,8 @@ This puts the earliest date/time for the burglaries first, and the latest last.
   * Look at just Sexual Offenses. Can you see anything interesting here?
 
 *Warning: Don’t forget you might have filters in action and not see your whole data set. To turn off all the filters, just hit the filter button again:*
- ![filter_button](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/filter_button.png) 
 
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/filter_button.png" width="100" height="68"> 
 
 
 ### Useful for counting: Remove Duplicates
@@ -385,13 +390,14 @@ This puts the earliest date/time for the burglaries first, and the latest last.
 Trim removes whitespace!
 Proper makes title case.  
 
-![formulae](/https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/formulae.png) 
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/formulae.png" width="400" height="385">    
+
 
 > See video in https://breakingintowallstreet.com/biws/cleaning-up-data-in-excel/ 
  
 ### Reminder about formulae cell references
 
-![references](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/references.png)  
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/references.png" width="400" height="132">    
 A2 : relative reference  
 $A2 : fixed column, relative 2   
 $A$2 : fixed col and cell!  
@@ -401,14 +407,17 @@ $A$2 : fixed col and cell!
   
 ### Use a formula
 Let’s try to split up the data on the street address for Chicago crimes.  
-Copy the block column onto a new sheet. Enter this formula (but the french version, probablytrouver(‘ ‘;A2)... in b2:  
+Copy the block column onto a new sheet. Enter this formula (but the french version, probably trouver(‘ ‘;A2)... in b2:  
 
-![find](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/find.png) 
- 
-### Paste As Values
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/find.png" width="300" height="79">
+
+
+### Paste As Values  
+
 After you finish your formula and get your results, it’s very important to copy the data and paste it as values — because leaving a formula in a cell can cause bad problems.
  
-![paste](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/paste.png) 
+
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/paste.png" width="300" height="368">  
 
 ### Problem with Formulas
 
@@ -417,12 +426,12 @@ After you finish your formula and get your results, it’s very important to cop
   * It is easy to “mess up” your formula with an accidental click in a cell containing one, and then you have lost important data
 
 After doing this operation...  
-![street_col](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/street_col.png)   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/street_col.png" width="250" height="134">    
 You should have both columns - the original, and the new derived column (pasted as values, no formula in the cell!)
  
 ### Saving as csv: Remember Format
 
-![save](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/save.png)   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/save.png" width="500" height="505">  
 Then you must say “continue” to the dialogs afterwards.... 
 
 **WARNINGS**
