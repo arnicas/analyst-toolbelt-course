@@ -451,7 +451,7 @@ Video: [Changing Text with Formula](https://youtu.be/RoWn9s-lo_M)
 
 > Also see video in https://breakingintowallstreet.com/biws/cleaning-up-data-in-excel/ 
  
-### Reminder about formulae cell references
+### Reminder about Formulae Cell References
 
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/references.png" width="400" height="132">
 
@@ -463,12 +463,21 @@ Remember:
 > http://www.gcflearnfree.org/excel2013/relative-and-absolute-cell-references/2/ 
 
   
-### Use a formula
+### Use a Formula to Extract Text
+
 Let’s try to split up the data on the street address for Chicago crimes.  
 Copy the block column onto a new sheet. Enter this formula (but the french version, probably "trouve(‘ ‘;A2)"... in b2:  
 
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/find.png" width="300" height="79">
 
+Then you can use another formula to get the right end of the string,
+
+* RIGHT(text, number_of_chars)
+* LEN(text)
+
+How would you combine them?  In one formula. Work with me!
+
+Read: https://spreadsheeto.com/text-functions/
 
 ### After Formula Use: Paste As Values  
 
