@@ -438,7 +438,6 @@ See video: [Text to Columns](https://youtu.be/xs4QmuhFgSo)
 ## Formulae
 
 ### Text and Data Formulae to Clean 
-(sadly, you must find the french versions)
 
 Trim removes whitespace!
 Proper makes title case.  Example in this video of cleaning a column to fix the case to "proper." (In French, "nompropre".)
@@ -457,7 +456,8 @@ Video: [Changing Text with Formula](https://youtu.be/RoWn9s-lo_M)
 
 Remember: 
   * A2 : relative reference : both may change when you copy the formula.
-  * $A2 : fixed column, relative 2 row -- will change when you copy row.
+  * A$2 : fixed row, relative column -- will change when you copy column.
+  * $A2 : fixed column, relative row -- will change when you copy row.
   * $A$2 : fixed column and cell, will not change when you copy formula.
 
 > http://www.gcflearnfree.org/excel2013/relative-and-absolute-cell-references/2/ 
@@ -472,12 +472,13 @@ Copy the block column onto a new sheet. Enter this formula (but the french versi
 
 Then you can use another formula to get the right end of the string,
 
-* RIGHT(text, number_of_chars)
-* LEN(text)
+* RIGHT(text, number_of_chars) [French: DROITE]
+* LEN(text)  [French: NBCAR]
 
 How would you combine them?  In one formula. Work with me!
 
 Read: https://spreadsheeto.com/text-functions/
+
 
 ### After Formula Use: Paste As Values  
 
