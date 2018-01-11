@@ -93,3 +93,6 @@ Video: [Save as CSV](https://youtu.be/uJ_cSdF8hkk)
 After you have saved in CSV format, your workbook is called filename.csv. You will want to save it as an Excel workbook too, to save all the tabs! 
 
 Note: In France/Europe, the format is more commonly ";" delimited, not "," (virgule), because of number formatting.  This is ok too.
+
+## [Week1 Homework](homework.md)
+
