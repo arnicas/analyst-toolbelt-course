@@ -22,3 +22,5 @@ Import the csv file.
 * Use filtering and sorting to answer the questions on the quiz.
 * Sort the file by Identifier, Ascending.
 * Upload the new fixed data tab as a csv file called “fb_clean.csv”.
+
+You upload 2 files in csv format, and do the quizzes based on lecture notes and the data files after cleaning.

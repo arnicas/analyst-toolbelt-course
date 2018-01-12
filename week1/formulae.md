@@ -41,7 +41,11 @@ Then you can use another formula to get the right end of the string,
 
 How would you combine them?  In one formula. Work with me!
 
-Read: https://spreadsheeto.com/text-functions/
+One answer:  **=RIGHT(A2, LEN(A2)-6)**; or in French **=DROITE(A2; NBCAR(A2)-6)**
+
+Why does this work?
+
+See explanations in This: https://spreadsheeto.com/text-functions/
 
 
 ### After Formula Use: Paste As Values  
