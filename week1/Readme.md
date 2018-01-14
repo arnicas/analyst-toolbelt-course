@@ -6,9 +6,9 @@
 
   * Everyone everywhere uses it in business. 
   * It’s a great tool for exploratory data analysis
-  * You can use it to make CSV files for other tools, and use in Python/R/Javascript apps
-  * It has some powerful capabilities including charts,formulae, stats, filters, etc
-  * It can be used for reporting, analysis, charts, 2 interactivity...
+  * You can use it to make CSV (comma-separated value text) files for other tools, and use in Python/R/Javascript apps
+  * It has some powerful capabilities including charts,formulae, stats, filters, etc.
+  * It can be used for reporting, analysis, charts, interactivity...
 
 ### Data Analysis Skills
 
@@ -20,7 +20,7 @@ A couple background references on being a data analyst:
 This course is not much about math and stats, and more about data organization, cleaning, and tools needed for basic functional data analysis in the office. We start with important Excel skills that I find many people don't know, and then we move on to SQL (**the most important analyst skill**), and a visual analysis and reporting tool, Tableau.
 
 
-## Section: [Good Spreadsheet Data Behavior](good_spreadsheets.md)
+## Read Section: [Good Spreadsheet Data Behavior](good_spreadsheets.md)
 
 
 ### Excel UI Tools
@@ -43,10 +43,12 @@ Right click on top toolbar to customize it...
 The Data Tab has filters, Pivots, Text to Columns, etc...  
 ![Data_tab_mac](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Data_tab_mac.png)
 
-**Make sure all your tabs are showing.**
+**Make sure all your tabs are showing, including Developer.**
+
+Video: [Windows 2016 French Excel Options](https://youtu.be/ry1q9lDiKgI)
 
   * Excel Preferences.... 
-(under File **menu on Windows**, or the **main app menu on Mac**)
+(under Fichier Options menu on **Windows**, or the **main app menu on Mac**)
 
   * Click on Ribbon   
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Ribbon.png" width="400" height="322">   
@@ -56,7 +58,7 @@ The Data Tab has filters, Pivots, Text to Columns, etc...
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/check_tabs.png" width="400" height="330">  
 
 
-## Section: [Importing Data and Date Types](importing_dates.md).
+## Read Section: [Importing Data and Date Types](importing_dates.md).
 
 
 ## Key UI Tools You Must Understand in Excel for Data Cleaning & Reporting
@@ -70,7 +72,6 @@ The Data Tab has filters, Pivots, Text to Columns, etc...
 
 
 ## Section: [Filtering and Sorting](filtering_sorting_dupes.md)
-
 
 ## Section: [Cleaning Data](cleaning.md)
 

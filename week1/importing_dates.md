@@ -8,7 +8,11 @@
 
 We need some data to start with.  A common "raw data" file format is CSV, or "comma separated values."  (In France it is usually ";" separated.)
 
-Video: [Import CSV](https://youtu.be/7U5WgW_mQ8o)
+*VIDEOS*:
+
+>Mac English Excel Video: [Import CSV](https://youtu.be/7U5WgW_mQ8o)
+>Windows French Excel 2016: [Import CSV](https://youtu.be/eB2NR0P55r0)
+
 
 It is very common for a raw data set to be in a text format, not excel. Usually it will be in “CSV” or “TSV” format — “comma separated values” or “tab separated values.”
 
@@ -17,7 +21,9 @@ The difference is the character that separates the columns of data — for insta
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/csv_data.png" width="111" height="250">   
 
 
-#### Importing steps:
+#### Importing steps (Mac, English)
+
+(See the video links above for other formats.)
 
 1. Click on File menu, then “Import....” and make sure this dialog says CSV:
 
@@ -28,13 +34,22 @@ The difference is the character that separates the columns of data — for insta
 
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/delimiter1.png" width="500" height="355">
 
+2.a. It's important to change the source menu if you are using a data file from a region with a different currency or date format.  This seems to be the key to converting for your own regional display correctly.  For instance, using a file from the US, in a French copy of Excel:
+
+<img src="week1_pic/import_origin_menu.png" width="400" height="200">
+
+On Mac, importing a French file into American Excel, I have to choose something for European (no french option shows).
+
+<img src="week1_pic/mac_import_file_origin">
+
+
+
 2.b. Here you specify what the character delimiter is between your data columns. You can type in a special one in "other".
 
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/delimiter2.png" width="500" height="355">   
 
   
 3. The “Types” Dialog:
-
 
 You can also change your data types after importing, but there is one important issue here: **decimal number format**.  
 
@@ -77,6 +92,12 @@ Video: [Text to Columns](https://youtu.be/xs4QmuhFgSo)
 
 
 ## Verifying: Date/Time types
+
+When you import a CSV file, make sure you know the origin for date and currency handling.  You should set the origin when you import:
+
+Video: [Importing French Data into American Excel](https://youtu.be/HxRai7NZH50)
+Video: [Importing French Data into French Excel with US Settings](https://youtu.be/HxRai7NZH50)
+
 
 The data type is very important in Excel.
 
