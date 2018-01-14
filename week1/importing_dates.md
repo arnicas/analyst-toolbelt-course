@@ -36,11 +36,11 @@ The difference is the character that separates the columns of data — for insta
 
 2.a. It's important to change the source menu if you are using a data file from a region with a different currency or date format.  This seems to be the key to converting for your own regional display correctly.  For instance, using a file from the US, in a French copy of Excel:
 
-<img src="week1_pic/import_origin_menu.png" width="400" height="200">
+<img src="week1_pic/import_origin_menu.PNG" width="400" height="200">
 
 On Mac, importing a French file into American Excel, I have to choose something for European (no french option shows).
 
-<img src="week1_pic/mac_import_file_origin">
+<img src="week1_pic/mac_import_file_origin.png">
 
 
 
