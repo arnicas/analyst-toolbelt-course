@@ -11,6 +11,7 @@ We need some data to start with.  A common "raw data" file format is CSV, or "co
 *VIDEOS*:
 
 >Mac English Excel Video: [Import CSV](https://youtu.be/7U5WgW_mQ8o)
+
 >Windows French Excel 2016: [Import CSV](https://youtu.be/eB2NR0P55r0)
 
 
@@ -34,14 +35,13 @@ The difference is the character that separates the columns of data — for insta
 
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/delimiter1.png" width="500" height="355">
 
-2.a. It's important to change the source menu if you are using a data file from a region with a different currency or date format.  This seems to be the key to converting for your own regional display correctly.  For instance, using a file from the US, in a French copy of Excel:
+2.a. It's important to change the source menu if you are using a data file from a region with a different currency or date format.  This seems to be the key to converting for your own regional display correctly.  For instance, using a file from the US, in a French copy of Excel, I make sure the origin says Etats-Unis (where the yellow is):
 
-<img src="week1_pic/import_origin_menu.PNG" width="400" height="200">
+<img src="week1_pic/import_origin_menu.PNG">
 
-On Mac, importing a French file into American Excel, I have to choose something for European (no french option shows).
+On Mac, importing a French file into American Excel, I have to choose something for European (no "France" option shows).
 
 <img src="week1_pic/mac_import_file_origin.png">
-
 
 
 2.b. Here you specify what the character delimiter is between your data columns. You can type in a special one in "other".
@@ -70,6 +70,9 @@ Make sure you change this to match my settings when you import text data with nu
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/import_data.png" width="400" height="202">  
 
 
+**Note: The final imported data will reflect (look like) your regional settings.  So the date that is January 2 will display FOR YOU as 2/1/2008 if your settings are European date format (day/month/year).  This means it was interpreted correctly.**
+
+
 #### alternatively... some Excel versions can open CSV files for you:
 
 In a blank workbook, click File menu, choose Open.... and change the dialog to show or enable “All files”:  
@@ -84,9 +87,13 @@ Hopefully it will understand the csv format and load it correctly for you:
 
 ###### If it does not... all of it will be in one column, with no headers.
 
-Then you can split the single column using the same dialogs, accessible from the “text to columns” button (under Data in Mac Excel, maybe home on Windows?)
+Then you can split the single column using the same dialogs, accessible from the “text to columns” button (under Data / Donnees tab).
 
-Video: [Text to Columns](https://youtu.be/xs4QmuhFgSo)
+On Windows it will be called "convertir", not "text to columns":
+
+<img src="week1_pic/french_excel_text_to_cols.PNG">
+
+Video: [Mac Text to Columns](https://youtu.be/xs4QmuhFgSo)
  
 <img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/txt_col.png" width="250" height="73">  
 
@@ -97,7 +104,6 @@ When you import a CSV file, make sure you know the origin for date and currency 
 
 Video: [Importing French Data into American Excel](https://youtu.be/HxRai7NZH50)
 Video: [Importing French Data into French Excel with US Settings](https://youtu.be/HxRai7NZH50)
-
 
 The data type is very important in Excel.
 
@@ -140,7 +146,8 @@ You should have a date option that includes AM/PM in the time.
 Hint: Copy the Date column to 2 new columns. Reformat them.  
 Rename the original col to “date-time” and the other 2 to “Date” and “Time”. Or use formulae.
   
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/date.png" width="350" height="305">   
+<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/date.png" width="350" height="305">
+
 Notice that when you mouse in a cell, you see the full date information.
 
 ### Now save this edited data as CSV. Call it “chi2.csv”.
