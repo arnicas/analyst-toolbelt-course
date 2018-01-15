@@ -1,0 +1,30 @@
+Sub ReversePivotTable()
+'   Before running this, make sure you have a summary table with column headers.
+'   The output table will have three columns.
+    Dim SummaryTable As Range, OutputRange As Range
+    Dim OutRow As Long
+    Dim r As Long, c As Long
+
+    On Error Resume Next
+    Set SummaryTable = ActiveCell.CurrentRegion
+    If SummaryTable.Count = 1 Or SummaryTable.Rows.Count < 3 Then
+        MsgBox "Select a cell within the summary table.", vbCritical
+        Exit Sub
+    End If
+    SummaryTable.Select
+    Set OutputRange = Application.InputBox(prompt:="Select a cell for the 3-column output", Type:=8)
+'   Convert the range
+    OutRow = 2
+    Application.ScreenUpdating = False
+    OutputRange.Range("A1:C3") = Array("Column1", "Column2", "Column3")
+    For r = 2 To SummaryTable.Rows.Count
+        For c = 2 To SummaryTable.Columns.Count
+            OutputRange.Cells(OutRow, 1) = SummaryTable.Cells(r, 1)
+            OutputRange.Cells(OutRow, 2) = SummaryTable.Cells(1, c)
+            OutputRange.Cells(OutRow, 3) = SummaryTable.Cells(r, c)
+            OutputRange.Cells(OutRow, 3).NumberFormat = SummaryTable.Cells(r, c).NumberFormat
+            OutRow = OutRow + 1
+        Next c
+    Next r
+End Sub
+

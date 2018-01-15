@@ -76,7 +76,7 @@ Create two columns from one, using a bunch of tools:
 
 #### Hints
   * Work on a new tab with a copy of your data!
-  * Use text-to-column (split by comma) See video above. 
+  * Use text-to-columns / "convertir" (split by comma). See video above. 
   * Select each resulting column and replace the “)” or “(“ by nothing 
   * Label the new columns as requested.
 

@@ -84,7 +84,7 @@ Navigate to and click on **ChiCrimes_Chicago2008.csv** to open it.
 Hopefully it will understand the csv format and load it correctly for you:
  
 ![Chicago_csv](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Chicago_csv.png)
-
+Mar
 ###### If it does not... all of it will be in one column, with no headers.
 
 Then you can split the single column using the same dialogs, accessible from the “text to columns” button (under Data / Donnees tab).
