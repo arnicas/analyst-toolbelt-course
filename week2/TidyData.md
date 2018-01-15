@@ -62,5 +62,6 @@ The macro code you need is in the data file "ReversePivotTable_macro.vba.txt."
 
 [Macro Source Link](spreadsheetpage.com/index.php/tip/creating_a_database_table_from_a_summary_table/)
 
+Demos:
 * [Video of Running Macro on Mac Excel](https://youtu.be/dpnIwhmmbLA)
-* 
+* [Video of Macros on Windows Excel](https://youtu.be/D10U0I9dh50)

@@ -10,45 +10,51 @@
   * time groupings
 
 ### Pivot Tables like Tall, Raw Data   
-***Hunting Accidents file...***
-
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/1.png" width="900" height="425">  
 
  Pivot Input data is as on the right...
-“Wide” data
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/2.png" width="600" height="410">  
+“Wide” data is on the left.  Sometimes "wide" table data is the result of a Pivot table operation.
+
+<img src="week2_pic/2.png" width="600" height="410">  
                                                     “Tall” or “Long” data   
 
-This is actually a tabular summary on the left. Pivots want the right side of this pic. (Pic from Spreadsheet page link below.)
+To see more, see the section for [Tidy Data](TidyData.md).
 
-## Finding the Pivot Table Command  
+## Finding the Pivot Table Command
 
-1. Find and Click the PivotTable (“Table Croisée”) on the ribbon toolbar or menu.  
-2. *On Windows,* check the “Insert” Ribbon Tab.   
+Video Demos:
+
+* [Mac Excel English Pivot, Count Values](https://youtu.be/fxP81RaPBFQ)
+* [Windows Excel French Pivot](https://youtu.be/fsre1PJYDM4)
+
+1. Select your data. Find and Click the PivotTable (“Table Croisée”) on the ribbon toolbar or menu.  
+2. *On Windows,* check the “Insert” Ribbon Tab.
 	*On Mac,* the “Data” Ribbon Tab.  
 3. Also look at the menus (check Insert and Data menus).  
 
 You should get the dialog:  
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/3.png" width="600" height="461">   
- *Note: Every column needs a label for it to work!*
+<img src="week2_pic/3.png" width="600" height="461">   
+
+ *Note: Every column needs a label for this to work!*
 
 4. Click OK (after making sure it shows your selection.)  
 
-On Mac, it makes a “default” pivot table.   
+On Mac, it makes a “default” pivot table.   On Windows, you need to select the option on the bottom of the suggestions dialog for "Table Vide."
+
 It should show the “Builder” open. The command to open it is on top on the ribbon (in case you lose it/close it).
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/4.png" width="600" height="439">   
 
-If you have items in your builder, drag them “out” to empty it. Goal is to start from empty:
+<img src="week2_pic/4.png" width="600" height="439">   
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/5.png" width="600" height="445">   
+If you have items in your builder, drag them “out” of the dialog to empty it (see Mac video). Goal is to start from empty:
+
+<img src="week2_pic/5.png" width="600" height="445">   
 
 The parts of the builder dialog:
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/6.png" width="400" height="415">   
+<img src="week2_pic/6.png" width="400" height="415">   
 
 5. Do this: Drag “Primary Type” into both Rows and Values:
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/7.png" width="600" height="559">   
+<img src="week2_pic/7.png" width="600" height="559">   
 
 By default, it produces a Count of each Primary Value.  
 And the row labels are alphabetic.  
@@ -57,131 +63,162 @@ And the row labels are alphabetic.
 
 This is another data set: *Hunting Injury Data – VictimACTIVITY (Victim Activity) by Count of WOUNDs*  
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/8.png" width="600" height="676">   
+<img src="week2_pic/8.png" width="600" height="676">
 
-Might decide to group these – by fixing the label in a copy of the raw data.
+(How would you clean that data?  You could edit the text so it's consistent in a copy of the raw data! Then the counts will be more accurate.)
 
-6. You can change the sort order
-On Windows, right click inside a cell in Values  
-On Mac, click the Sort button in the Data tab.  
+### You can change the sort order.
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/9.png" width="600" height="644">   
+On Windows, right click inside a cell in Values. Choose sort (Trier).
+On Mac, click the Sort button in the Data tab while your mouse is in the column.
 
-###### Example 1- show the top primary crimes in order, descending
+(The videos above show this too.)
+
+###### Show the top primary crimes in order, descending.
 
  Let’s do that with chi2.csv, our Chicago dataset.
 
-*Result:*   
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/10.png" width="250" height="551">   
+*Mac UI, result:*   
+<img src="week2_pic/10.png" width="250" height="551">   
 
-  * Top 10... on Windows:
+### Filter Results to Top 10... on Windows:
 Right click on first column item, and you’ll see Filter > Top 10...
 (or filter by other options!)  
-Get the top 10 crime types.   
+Get the top 10 crime types.
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/11.png" width="400" height="556">   
+Video Demo: [Windows Excel Top 10 Pivot Results By Value](https://youtu.be/CSHWmbSH8rg)
 
+<img src="week2_pic/11.png" width="400" height="556">   
 
-  * Top 10 on Mac:  
+### Top 10 on Mac:  
 Pick Menu on Row Labels, Choose the menu beside “By Value”...
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/12.png">   
+<img src="week2_pic/12.png">   
 
-https://www.techonthenet.com/excel/pivottbls/top10_2011.php
+Helpful link: https://www.techonthenet.com/excel/pivottbls/top10_2011.php
 
-###### Exercise 1- Do the same operations with Streets now (your created field)  
-1. *What is the street with the most crimes? What are the top 10?*
+###### Exercise 1- Do the same operations with Streets now (in chi2.csv, the data we cleaned last week). (Streets, not block!)  
 
+*What is the street with the most crimes? What are the top 10?*
 
-Now Add “Arrest” to columns   
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/13.png">   
+### Using Columns Too
 
-2. *What if we wanted to find out which crimes had the most arrests?*
+*What if we wanted to find out which streets had the most arrests?*
+
+Now Add “Arrest” to columns in your pivot table builder UI:
+
+<img src="week2_pic/13.png">
+
+Now what about what kind of crimes had the most arrests?
 
 Make Arrests your columns, and the primary type the rows. Sort by Arrests, True.
 
 *Result:*
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/14.png" width="300" height="337">   
+<img src="week2_pic/14.png" width="300" height="337">   
 
 
-### Filters
+### Filters on Pivot Tables
+
 If you want to dig into a particular type of data, you can make a filter.   
 Drag “Primary Type” into the filters area — it will appear above the pivot results —
 
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/15.png" width="282" height="450">   
+<img src="week2_pic/15.png" width="282" height="450">   
 
 and set it to Narcotics.   
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/16.png" width="200" height="93">   
+<img src="week2_pic/16.png" width="200" height="93">
+
+[Video of simple filtering on pivot table](https://youtu.be/l1nc62R-68k)
+
 
 ### Nested Rows
+
 If you want to learn more about each ROW (or column) of data, you can add another variable to the same group.       
 Try adding Location Description to the Rows under “Street”:  
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/17.png" width="400" height="618">   
+<img src="week2_pic/17.png" width="400" height="618">   
 
 **Feel free to change the filter!**
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/18.png" width="400" height="307">   
+<img src="week2_pic/18.png" width="400" height="307">   
 
  Now try...
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/19.png" width="400" height="436">   
+<img src="week2_pic/19.png" width="400" height="436">   
 
  What’s interesting there?
 
+[Video demo of nesting rows and sorting](https://youtu.be/8a3Ny3Pi93w)
 
-## Pivots with Quantitative Data
+
+## Pivots with Quantitative Data & Groups
 
 :zap: **This file is due for homework.** :zap:
 
 *What if we want a calculation or combination of quantitative numbers, instead of Count of qualitative data?*
+
 For instance, if you have numeric data like Sales figures over time, or rainfall per month.
 
-**Open Paris_Rainfall_Unpivoted.csv** in a tab.   
+**Import Paris_Rainfall_Unpivoted.csv** in a tab.
 
-1. Create a pivot table on a new tab (empty all the Builder fields).
+1. Create a pivot table on a new tab (empty all the Builder fields!).
 2. Set it up this way... Year and Value:
-  * click on the option for Values and edit it to be SUM instead
+  * click on the option for Values and edit it to be SUM instead.
   * With numeric data, you can summarize by other calculations than count.
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/20.png">   
+<img src="week2_pic/20.png">   
 
-3. Now sort by Values, descending.
-Call this tab “annual_sum”
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/21.png" width="200" height="403">     
+Now sort by Values, descending.
+
+Call this tab “annual_sum.”
+<img src="week2_pic/21.png" width="200" height="403">     
+
+Video demo: [changing to sum/somme](https://youtu.be/nxFxNAQDnAw)
 
 
-4. Now do average per year:
+Now do average per year, in a new tab.
+
 If you sort descending by Total, what’s the top year?  
-Call this tab “annual_avg"
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/22.png" width="200" height="280">   
 
-5. How would we get to the original data we “unpivoted”?
-Call this tab “by_month”
+Call this tab “annual_avg."
+<img src="week2_pic/22.png" width="200" height="280">   
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/23.png">
+How would we get to the original data we “unpivoted”?
+
+Call this tab “by_month.”
+
+<img src="week2_pic/23.png">
 
 ## Grouping & Dates
 
 We can “group” numeric data to make a manual histogram or to handle date ranges.  
 
-On Mac: If you have years in your row labels, with your mouse on one date,
-right click to open the group option.
+Start from a sum of rainfall by year pivot, with the years in order, ascending (i.e., don't sort it).
 
-On Windows: try the menu above
+<img src="assets/PivotTables-33aa4.png">
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/24.png" width="400" height="404">
+If you have years in your row labels, with your mouse on one year cell,
+right click to open the group option. In French it is "Grouper".
 
 1. Group Years by Centuries
-Call this tab century_totals
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week2/week2_pic/25.png" width="800" height="417">
 
-2. Now filter by months...
+<img src="week2_pic/25.png" width="800" height="417">
+
+You should have this:
+
+<img src="assets/PivotTables-58563.png">
+
+Call this tab "century_totals".
+
+Repeat this on a new tab. Now filter by months...
+
 Set the filter to Jan, Feb, and Dec.   
-Set your Aggregation to Mean.   
 
-Call this tab “mean_winter”   
+<img src="assets/PivotTables-e25f7.png">
+
+Set your Aggregation to Mean (Moyenne).
+
+Call this tab “mean_winter".
 
 ***Your file should have these tabs:***
   * annual_sum
@@ -190,5 +227,5 @@ Call this tab “mean_winter”
   * century_totals
   * mean_winter
 
-> Video recap of pivot functionality - for Windows,but the same principles:
-> https://www.youtube.com/watch?v=Vx-Fuw46VbY
+Save this file as paris_pivots.xlsx.
+You will turn this in for HW.
