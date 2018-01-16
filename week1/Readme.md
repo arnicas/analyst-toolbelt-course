@@ -4,7 +4,7 @@
 ### Why Excel?
 
 
-  * Everyone everywhere uses it in business. 
+  * Everyone everywhere uses it in business.
   * It’s a great tool for exploratory data analysis
   * You can use it to make CSV (comma-separated value text) files for other tools, and use in Python/R/Javascript apps
   * It has some powerful capabilities including charts,formulae, stats, filters, etc.
@@ -28,34 +28,34 @@ This course is not much about math and stats, and more about data organization, 
 #### Windows looks very different.  (It’s actually better, too.)
 
 Filter is on home tab   
-![Home_tab_Windows](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/home_tab.png)
+![Home_tab_Windows](week1_pic/home_tab.png)
 
 Insert Tab has charts/pivots on it....  
-![Insert_tab_Windows](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/inster_tab_W.png)
+![Insert_tab_Windows](week1_pic/inster_tab_W.png)
 
 The Data tab....   
-![Data_tab_Windows](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Data_tab_W.png)
+![Data_tab_Windows](week1_pic/Data_tab_W.png)
 
 #### Mac Excel is different
 Right click on top toolbar to customize it...   
-![Toolbar_mac](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Toolbar_mac.png)
+![Toolbar_mac](week1_pic/Toolbar_mac.png)
 
 The Data Tab has filters, Pivots, Text to Columns, etc...  
-![Data_tab_mac](https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Data_tab_mac.png)
+![Data_tab_mac](week1_pic/Data_tab_mac.png)
 
 **Make sure all your tabs are showing, including Developer.**
 
 Video: [Windows 2016 French Excel Options](https://youtu.be/ry1q9lDiKgI)
 
-  * Excel Preferences.... 
+  * Excel Preferences....
 (under Fichier Options menu on **Windows**, or the **main app menu on Mac**)
 
   * Click on Ribbon   
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/Ribbon.png" width="400" height="322">   
+<img src="week1_pic/Ribbon.png" width="400" height="322">   
 
   * Be sure to scroll this window and check all of them.  
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/check_tabs.png" width="400" height="330">  
+<img src="week1_pic/check_tabs.png" width="400" height="330">  
 
 
 ## Read Section: [Importing Data and Date Types](importing_dates.md).
@@ -79,8 +79,8 @@ Video: [Windows 2016 French Excel Options](https://youtu.be/ry1q9lDiKgI)
 
 ## Saving as CSV: Remember Format
 
-<img src="https://github.com/arnicas/analyst-toolbelt-course/blob/master/week1/week1_pic/save.png" width="500" height="505">  
-Then you must say “continue” to the dialogs afterwards.... 
+<img src="week1_pic/save.png" width="500" height="505">  
+Then you must say “continue” to the dialogs afterwards....
 
 **WARNINGS**
 
@@ -91,9 +91,8 @@ Then you must say “continue” to the dialogs afterwards....
 
 Video: [Save as CSV](https://youtu.be/uJ_cSdF8hkk)
 
-After you have saved in CSV format, your workbook is called filename.csv. You will want to save it as an Excel workbook too, to save all the tabs! 
+After you have saved in CSV format, your workbook is called filename.csv. You will want to save it as an Excel workbook too, to save all the tabs!
 
 Note: In France/Europe, the format is more commonly ";" delimited, not "," (virgule), because of number formatting.  This is ok too.
 
 ## [Week1 Homework](homework.md)
-
