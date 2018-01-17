@@ -20,3 +20,4 @@ Upload your Paris Pivots file. It should have these tabs at least:
 * by_month
 * century_totals
 * mean_winter
+* a histogram of the month of May rainfall values (all years)

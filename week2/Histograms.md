@@ -26,6 +26,8 @@ Make a copy of the result and paste into a new sheet.  Make a bar chart.
 
 This is a histogram!  It tells us that the range with the most values in our data is 40-49 inches of rain!  There are over 500 values in this range.
 
+**For your homework, you will make a histogram of the rainfall of the month of May only.  Save it on a new tab called "histogram."**
+
 Histograms are the numeric version of counting categoric (text) values.
 
 <img src="assets/Histograms-bec92.png">
