@@ -1,7 +1,7 @@
 
 # Tidy Data (Long Form)
 
-Origin of the term “Tidy Data” is probably Hadley Wickham: [TidyData Paper](http:// vita.had.co.nz/papers/tidy-data.pdf)
+Origin of the term “Tidy Data” is probably Hadley Wickham: [Tidy Data Paper](http:// vita.had.co.nz/papers/tidy-data.pdf)
 
 * Also sometimes known as “tall” or “long” or “normalized” instead of
 “wide” data or tabular data
@@ -44,14 +44,14 @@ Look at Paris_Rainfall.csv:
 
 What would a tidy version of this look like?  We want a long table, with 3 columns: Year, Month, Value.
 
-### Unpivot Tools:
+### Unpivot Tools
 
-#### [Google Sheets Add-in](https://stevebennett.me/2015/01/06/normalize-cross-tabs-for-tableau-a-google-sheets- script/)
+#### [Google Sheets Add-in](https://stevebennett.me/2015/01/06/normalize-cross-tabs-for-tableau-a-google-sheets-script/)
 
 #### Windows Only Options
 
-* [Tableau Plugin-windows only]( http://kb.tableau.com/articles/knowledgebase/addin-reshaping-data- excel?lang=en-us)
-* [PowerQuery add-on for Excel-Windows only]( https://www.microsoft.com/en-us/ download/details.aspx?id=39379)
+* [Tableau Plugin-windows only](http://kb.tableau.com/articles/knowledgebase/addin-reshaping-data-excel?lang=en-us)
+* [PowerQuery add-on for Excel-Windows only](https://www.microsoft.com/en-us/download/details.aspx?id=39379)
 * Pivot Table Wizard - Windows (Seems to be disabled in latest version?)
 
 #### Using VBA Code (both platforms)
@@ -60,8 +60,8 @@ Make sure your Developer tab is in the ribbon.  Use Preferences or Options to tu
 
 The macro code you need is in the data file "ReversePivotTable_macro.vba.txt."
 
-[Macro Source Link](spreadsheetpage.com/index.php/tip/creating_a_database_table_from_a_summary_table/)
+[Macro Source Link: Creating a Database Table from a Summary Table](http://spreadsheetpage.com/index.php/tip/creating_a_database_table_from_a_summary_table/)
 
 Demos:
-* [Video of Running Macro on Mac Excel](https://youtu.be/dpnIwhmmbLA)
-* [Video of Macros on Windows Excel](https://youtu.be/D10U0I9dh50)
+* [Video of Running the Macro on Mac Excel](https://youtu.be/dpnIwhmmbLA)
+* [Video of Running the Macro on Windows Excel](https://youtu.be/D10U0I9dh50)
