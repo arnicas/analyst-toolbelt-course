@@ -12,6 +12,8 @@ You need to know what these are!
 
 ## Making Histograms with Pivot Tables
 
+Video Demo: [Making a Histogram with Pivot Tables](https://youtu.be/0zQ-xQ8_Yro)
+
 Open the **Unpivoted** (i.e., "tidy") Paris Rainfall file. It should have columns for Year, Month, Value.  Make a pivot table using Value and Count of Value:
 
 <img src="assets/Histograms-b9770.png">

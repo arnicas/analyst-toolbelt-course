@@ -227,5 +227,5 @@ Call this tab “mean_winter".
   * century_totals
   * mean_winter
 
-Save this file as paris_pivots.xlsx.
+Save this file as paris_pivots.xlsx. You'll add a histogram tab next.
 You will turn this in for HW.
