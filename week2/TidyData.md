@@ -50,9 +50,9 @@ What would a tidy version of this look like?  We want a long table, with 3 colum
 
 #### Windows Only Options
 
-* [Tableau Plugin (windows only)]( http://kb.tableau.com/articles/knowledgebase/addin-reshaping-data- excel?lang=en-us)
-* [PowerQuery add-on for Excel (Windows only)]( https://www.microsoft.com/en-us/ download/details.aspx?id=39379)
-* Pivot Table Wizard (windows) (Seems to be disabled in latest version?)
+* [Tableau Plugin-windows only]( http://kb.tableau.com/articles/knowledgebase/addin-reshaping-data- excel?lang=en-us)
+* [PowerQuery add-on for Excel-Windows only]( https://www.microsoft.com/en-us/ download/details.aspx?id=39379)
+* Pivot Table Wizard - Windows (Seems to be disabled in latest version?)
 
 #### Using VBA Code (both platforms)
 
