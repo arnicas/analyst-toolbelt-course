@@ -19,10 +19,18 @@ In your files, *VLOOKUP_Examples.xlsx*
 
 First is a one sheet example, then there are 2 sheets plus some IF statements.
 
+<img src="assets/VLOOKUP_HW-7a7c5.png">
+
+<img src="assets/VLOOKUP_HW-129a9.png">
+
+<img src="assets/VLOOKUP_HW-9f64e.png">
 
 ### Handling errors
 
 If there’s no match in the lookup table, you get an error #NA in Excel.  
+
+<img src="assets/VLOOKUP_HW-ffc47.png">
+
 You can put an **IFERROR** test here and return “NONE” if you have an error!
 
 ### Reminder about Formula references
