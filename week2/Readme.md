@@ -1,4 +1,11 @@
-# Week2 Analyst Toolbelt : Pivot Tables
+# Week2 Analyst Toolbelt : Pivot Tables & Histograms
+
+
+Todo:
+ * Homework discussion. *Follow the directions!*
+ * Dates.
+ * Text editors.
+
 
 ## Section: [Descriptive Statistics](DescriptiveStats.md)
 
