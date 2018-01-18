@@ -25,6 +25,7 @@ You will work through tidying the data in the file "survey_data_spreadsheet_mess
 * Where’s the source data?
 * What’s wrong with the fields in some columns?
 * What are the columns you would have if you made this tidy?
+* Fix the dates to be in a solid YYYY-MM-DD format.
 
 Your goal is a single table for all the data.
 

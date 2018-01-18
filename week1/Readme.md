@@ -80,7 +80,7 @@ Video: [Windows 2016 French Excel Options](https://youtu.be/ry1q9lDiKgI)
 ## Saving as CSV: Remember Format
 
 <img src="week1_pic/save.png" width="500" height="505">  
-Then you must say “continue” to the dialogs afterwards....
+Then you must say "yes" or “continue” to the dialogs afterwards that warn you about saving this single sheet.... (There will be 2 dialogs, normally.)
 
 **WARNINGS**
 
@@ -89,10 +89,13 @@ Then you must say “continue” to the dialogs afterwards....
   * You will save any date strings in the format that is visible. This means you may lose information (minutes, seconds) if you aren't showing enough precision.
   * Save with a new filename, so you don’t overwrite the original data!
 
-Video: [Save as CSV](https://youtu.be/uJ_cSdF8hkk)
+Video: [Save as CSV](https://youtu.be/th67tLDIQtE)
 
+Choose the simple format, it can be ";" separated if you want. Don't choose anything that specifies platform (Mac, DOS...).
 After you have saved in CSV format, your workbook is called filename.csv. You will want to save it as an Excel workbook too, to save all the tabs!
 
 Note: In France/Europe, the format is more commonly ";" delimited, not "," (virgule), because of number formatting.  This is ok too.
 
-## [Week1 Homework](homework.md)
+You can always look at your file in a *plain text editor* (like Notepad) afterwards.
+
+## [Week1 Homework Link](homework.md)
