@@ -174,7 +174,6 @@ Call this tab “annual_sum.”
 
 Video demo: [changing to sum/somme](https://youtu.be/nxFxNAQDnAw)
 
-
 Now do average per year, in a new tab.
 
 If you sort descending by Total, what’s the top year?  
@@ -194,21 +193,22 @@ We can “group” numeric data to make a manual histogram or to handle date ran
 
 Start from a sum of rainfall by year pivot, with the years in order, ascending (i.e., don't sort it).
 
-<img src="assets/PivotTables-33aa4.png">
-
 If you have years in your row labels, with your mouse on one year cell,
 right click to open the group option. In French it is "Grouper".
 
-1. Group Years by Centuries
-
+#### Group Years by Centuries (100 years)
 
 <img src="week2_pic/25.png" width="800" height="417">
 
-You should have this:
+Choose "Sum" of values, not count.  You should have this:
 
-<img src="assets/PivotTables-58563.png">
+<img src="assets/PivotTables-70caf.png">
 
 Call this tab "century_totals".
+
+**Alert: If you group one pivot table, it will group the others. That's ok right now.**
+
+### Filter by Months - Winter Months Avg.
 
 Repeat this on a new tab. Now filter by months...
 
@@ -227,5 +227,6 @@ Call this tab “mean_winter".
   * century_totals
   * mean_winter
 
-Save this file as paris_pivots.xlsx. You'll add a histogram tab next.
-You will turn this in for HW.
+Plus a histogram - see [Histogram.md](Histograms.md).
+You'll add a histogram tab next.
+You will turn this in as an excel file for HW. (Leaving things grouped is fine.)
