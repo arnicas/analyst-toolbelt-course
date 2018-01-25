@@ -63,40 +63,41 @@ Highlights and Annotations
 
  * Click once on a data element to select the whole series
 
-<img src="assets/Readme-7a560.png">  
+<img src="assets/Readme-7a560.png" height="300">  
  * Click a second time to select on data element, the single bar.
 
-<img src="assets/Readme-75f4e.png">  
+<img src="assets/Readme-75f4e.png" height="300">  
 
  * RIGHT-CLICK for this dialog and select Format Data Point:  
   Btw, avoid 3-D, glow, etc.  A dialog will open on the right panel (in a recent Excel). You want to choose "fill" to change the color of the bar -- the paint bucket:
 
-  <img src="assets/ExcelCharts-65bba.png">
+  <img src="assets/ExcelCharts-65bba.png" height="300">
 
 
 Add the Labels / Annotations
 
  * One click for all data bars, 2 clicks for a single bar,
- * then right-click, pick Add Data Label(s)
+ * then right-click, pick Add Data Label(s):
 
-<img src="assets/Readme-1fb27.png">  
- * Default label is the value- But you can click inside it to edit the text as you like!
+<img src="assets/Readme-1fb27.png" height="300">  
 
-<img src="assets/Readme-1838b.png">
+ Default label is the value in your data column-  we will see how to format the red bar label differently below.
+
+<img src="assets/ExcelCharts-43932.png">
 
 ### Format Data Labels
 
-To add data labels to your chart, you can use the option in the toolbar:
+To add data labels to your chart, you can use the option in the toolbar on the far left (of the Chart tab). (In older excel, these options are lined up under the chart formatting tab label).
 
-<img src="assets/ExcelCharts-c3996.png">
+<img src="assets/ExcelCharts-c3996.png" height="300">
 
-To adjust the font size, style, etc. you can right-click on the label(s) you want to adjust (color, $ sign, etc.). Pick Format Data Labels.
+To adjust the font size, style, etc. you can right-click on the label(s) you want to adjust (color, $ sign, etc.). Pick "Format Data Labels." This gives you formatting controls.
 
-<img src="assets/Readme-d2f21.png">
+<img src="assets/Readme-d2f21.png" height="300">
 
-If you want to only format one, you can select once or twice to get the right one selected before you choose the menu item.
+If you want to only format one label -- like make it red, or bold, or bigger, you can select once or twice to get the right one selected before you choose the menu item.
 
-Then to customize the text in one label, to make it more explicit, you can select the label itself and modify the text carefully.
+Then to customize the text CONTENT in one label, to make it more explicit, you can select the label itself and modify the text carefully.
 
 <img src="assets/ExcelCharts-598c3.png">
 
@@ -105,30 +106,73 @@ Then to customize the text in one label, to make it more explicit, you can selec
 
  * Right-click on chart element to get these menus.
 
-<img src="assets/Readme-d42de.png">
+<img src="assets/Readme-d42de.png" height="300">
 
 <img src="assets/Readme-7ea50.png">
 
-**Important Under-the-Hood...**
 
- * Understanding Data Series in a Chart  
+
+### Adding Text Labels Elsewhere
+
+#### Tip: Inserting Text Boxes in Charts (on a Mac)  
+
+With the chart **NOT** selected, use the Insert menu. Move the text box to where you want it on the chart.
+
+<img src="assets/Readme-313df.png" height="300">
+
+
+#### Understanding Data Series in a Chart  
+
+
 When you click on a chart, you’ll see the data fields in the spreadsheet outlined. Those outlines are draggable/resizable.
 
 <img src="assets/Readme-72ae9.png">
 
- * Even more importantly, the data series dialog:  
-Click on the chart, and then the Select icon in the Charts tab.This dialog is how you add series, change labels, etc.
+If you drag the bottom right to include a second column of data, it will automatically add it to your chart:
 
-<img src=""assets/Readme-63144.png>
+<img src="assets/ExcelCharts-9acfb.png">
+
+You may need to reformat it at that point!
+
+#### Data Series Dialog
+
+*Important "Under-the-Hood" (How it Works)...*
+
+ Even more importantly, the data series dialog:  
+
+Choose "Select Data" in the toolbar:
+
+<img src="assets/ExcelCharts-90412.png">
+
+OR click on the chart, right click, and pick Select Data. This dialog is how you add series, change labels, etc.
 
 <img src="assets/Readme-5398c.png">
 
- * Tip: Inserting Text Boxes in Charts (on a Mac)  
-With the chart **NOT** selected, use the Insert menu. Move the text box to where you want it on the chart.
+What if you wanted to have non-adjacent data in your chart? You would use this dialog to pick it.  It's more complex, you can't just select the extra column from the drag-and-drop outline.
 
-<img src="assets/Readme-313df.png">
+<img src="assets/ExcelCharts-3bb44.png">
 
-## Excel Makeovers
+Video demo: [Custom Columns of Data in Select Data](https://youtu.be/_hWw7W4fPVo)
+
+
+## Design Example Using Pivots and Charts
+
+Using the rainfall file... (Paris Rainfall Unpivoted.xlsx).  This is a "big data" charting problem.  Too many data points for any pattern to emerge!
+
+- Adding Trendlines
+*Paris_Rainfall_graphs.xlsm*
+
+<img src="assets/Readme-18152.png">
+
+Date Grouping power: Average, by month, by century.
+
+*Paris Rainfall - Year (Centuries)*
+
+<img src="assets/Readme-3fe04.png">
+
+
+
+## Examples Excel Makeovers To Inspire You
 
 ###### 1. Cole Nussbaumer’s Students
 
@@ -138,7 +182,9 @@ Student Makeover examples:
 <img src="assets/Readme-139fb.png">  
   - by Marianne Siblini
 
-<img src="assets/Readme-3644b.png">  
+<img src="assets/Readme-3644b.png">
+
+What's wrong with the originals?
 
 *http://www.storytellingwithdata.com/2013/11/intro-to-information-visualization.html*
 
@@ -147,45 +193,33 @@ Student Makeover examples:
  - Redoing a Bureau of Labor Statistics employment graph  
 http://thewhyaxis.info/defaults/
 
-<img src="assets/Readme-edf45.png">
+<img src="assets/Readme-edf45.png" height="300">
 
  - Redoing a Gender Gap graph from NYT Economix blog: http://thewhyaxis.info/gap-remake/
 
-<img src="assets/Readme-a19ba.png">
+<img src="assets/Readme-a19ba.png" height="300">
 
 ## Fun Chart Types
 
 - Stephanie Evergreen:
 http://stephanieevergreen.com/how-to-make-dumbbell-dot-plots-in-excel/
 
-<img src="assets/Readme-5a708.png">
+<img src="assets/Readme-5a708.png" height="300">
 
 - Slope Graphs: http://peltiertech.com/slope-graphs-in-excel/
 
-<img src="assets/Readme-dd7d6.png">
+<img src="assets/Readme-dd7d6.png" height="400">
 
 - Small Multiples / Cycle Plots:
 
-<img src="assets/Readme-9b49c.png">
-<img src="assets/Readme-0e32b.png">
- Examples1 file
+<img src="assets/Readme-9b49c.png" height="300">
 
-- Dot Plots with a helper tool  
+<img src="assets/Readme-0e32b.png">
+
+- Dot Plots with a helper tool from Jon Peltier.
 
 <img src="assets/Readme-5bb70.png">  
-Using PelIer Chart UIlity plugin
-(http://peltiertech.com/UIlity20/), with customization.   
-See Examples1 file.
-
-- More Date Grouping power  
-*Paris Rainfall - Year (Centuries)*
-
-<img src="assets/Readme-3fe04.png">
-
-- Adding Trendlines
-*Paris_Rainfall_graphs.xlsm*
-
-<img src="assets/Readme-18152.png">
+Using [Peltier Chart Utility plugin](http://peltiertech.com/Utility20/), with customization.
 
 ## Conditional Formatting & Sparklines
 ### 1. Conditional Formatting:
@@ -194,10 +228,11 @@ See Examples1 file.
 
  <img src="assets/Readme-51591.png">
 
- Heatmaps in the media:  
+Heatmaps in the media:  
 http://graphics.wsj.com/infectious-diseases-and-vaccines/
 
 <img src="assets/Readme-6e437.png">  
+
 ### 2. Highlighting Cells
 
  Highlighting duplicates is very useful for comparing  overlaps or finding uniques.   
@@ -213,8 +248,8 @@ http://graphics.wsj.com/infectious-diseases-and-vaccines/
 
  *In data set Paris Rainfall...*
 
-  - In a cell, a tiny chart   
-(concept from Tufe: http://www.edwardtufe.com/bboard/q-and-a-fetch-msg?msg_id=0001OR)
+In a cell, a tiny chart
+(concept from [Edward Tufte](http://www.edwardtufe.com/bboard/q-and-a-fetch-msg?msg_id=0001OR).)
 
   - Insert or Chart tab:   
 <img src="assets/Readme-e626a.png">
@@ -237,11 +272,12 @@ The Developer Tab is added via the Preferences, Ribbon.
 
 ## A Few Excel Charting Resources
 
-* Excel Charting Do’s And Don’ts (Jon Peltier)  
-http://peltiertech.com/WordPress/excel-charting-dos-and-donts/
+* Great book by Jorge Camoes with Excel examples: [Data at Work](https://www.amazon.com/Data-Work-practices-effective-information/dp/0134268636/ref=as_li_ss_il?ie=UTF8&qid=1479988665&sr=8-1&keywords=data+at+work&linkCode=li3&tag=camoesjott-20&linkId=700a9059bdb09dfd5509965c061b241e)
 
-* Jon Schwabish tutorial: Making Excel Graphs Better  
- http://www.slideshare.net/jschwabish/making-excel-graphs-better
+* [Excel Charting Do’s And Don’ts](http://peltiertech.com/WordPress/excel-charting-dos-and-donts/)
 
-* Book: Michael Alexander’s Excel 2007 Dashboards and Peltier Chart utility   
-http://peltiertech.com/Utility20/
+* Jon Schwabish tutorial: [Making Excel Graphs Better](http://www.slideshare.net/jschwabish/making-excel-graphs-better)
+
+* Book: Michael Alexander’s Excel 2007 Dashboards
+
+* [Peltier Chart utility](http://peltiertech.com/Utility20/)
