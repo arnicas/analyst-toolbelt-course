@@ -110,6 +110,11 @@ Then to customize the text CONTENT in one label, to make it more explicit, you c
 
 <img src="assets/Readme-7ea50.png">
 
+** Formatting for number style on tick marks, needed for the homework:**
+
+<img src="assets/ExcelCharts-cc3f8.png" height="300">
+
+Video demo: [Custom tick marks](https://youtu.be/NgJrkgNSN1A)
 
 
 ### Adding Text Labels Elsewhere
@@ -154,6 +159,60 @@ What if you wanted to have non-adjacent data in your chart? You would use this d
 
 Video demo: [Custom Columns of Data in Select Data](https://youtu.be/_hWw7W4fPVo)
 
+
+## Conditional Formatting & Sparklines
+
+### 1. Conditional Formatting and "heat maps":
+
+You don't have this particular file, but we can do it on another one.
+
+ <img src="assets/Readme-51591.png">
+
+Heatmaps in the media:  
+http://graphics.wsj.com/infectious-diseases-and-vaccines/
+
+<img src="assets/Readme-6e437.png">  
+
+### 2. Highlighting Cells
+
+ Highlighting duplicates is very useful for comparing  overlaps or finding uniques.   
+ Shoot injuries, for instance.
+
+ <img src="assets/Readme-1a3ef.png">
+
+ You can go to town on formatting...
+
+<img src="assets/Readme-7ebc5.png">
+
+### 3. Sparklines  
+
+ *In data set ParisRainfall...*
+
+ Insert tab, sparklines menu:
+
+<img src="assets/ExcelCharts-b3923.png">
+
+In a cell, a tiny chart
+(concept from [Edward Tufte](http://www.edwardtufe.com/bboard/q-and-a-fetch-msg?msg_id=0001OR).)
+
+  - Insert or Chart tab:   
+<img src="assets/Readme-e626a.png">
+
+  - Add to the right of the months.  
+
+<img src="assets/Readme-74b2c.png">
+
+### 4. Advanced Maneuver: “Interactive” Charts
+
+The Developer Tab is added via the Preferences, Ribbon.  We won't do this in class, though.
+
+<img src="assets/Readme-1d022.png">
+
+ These are a powerful way to deliver a report or explore yourself.... or build a simple prototype for an interactive project!
+
+ <img src="assets/Readme-f871b.png">
+
+We're not going over these in class, but you can build little applications right in Excel if you want.
 
 ## Design Example Using Pivots and Charts
 
@@ -221,54 +280,7 @@ http://stephanieevergreen.com/how-to-make-dumbbell-dot-plots-in-excel/
 <img src="assets/Readme-5bb70.png">  
 Using [Peltier Chart Utility plugin](http://peltiertech.com/Utility20/), with customization.
 
-## Conditional Formatting & Sparklines
-### 1. Conditional Formatting:
 
- *Hunting Deaths file*
-
- <img src="assets/Readme-51591.png">
-
-Heatmaps in the media:  
-http://graphics.wsj.com/infectious-diseases-and-vaccines/
-
-<img src="assets/Readme-6e437.png">  
-
-### 2. Highlighting Cells
-
- Highlighting duplicates is very useful for comparing  overlaps or finding uniques.   
- Shoot injuries, for instance.
-
- <img src="assets/Readme-1a3ef.png">
-
- You can go to town on formatting...
-
-<img src="assets/Readme-7ebc5.png">
-
-### 3. Sparklines  
-
- *In data set Paris Rainfall...*
-
-In a cell, a tiny chart
-(concept from [Edward Tufte](http://www.edwardtufe.com/bboard/q-and-a-fetch-msg?msg_id=0001OR).)
-
-  - Insert or Chart tab:   
-<img src="assets/Readme-e626a.png">
-
-  - Add to the right of the months.  
-
-<img src="assets/Readme-74b2c.png">
-
-### 4. Advanced Maneuver: “Interactive” Charts
-
-The Developer Tab is added via the Preferences, Ribbon.
-
-<img src="assets/Readme-1d022.png">
-
- These are a powerful way to deliver a report or explore yourself.... or build a simple prototype for an interactive project!
-
- <img src="assets/Readme-f871b.png">
-
- *See Chapter 11, M. Alexander book file, or my tweaked copy in InteracIveExcel.xlsx*
 
 ## A Few Excel Charting Resources
 
