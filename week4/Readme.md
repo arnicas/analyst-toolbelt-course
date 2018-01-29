@@ -11,14 +11,14 @@
 ## What’s a Database?
 Here's a picture of a server, like MySQL or PostgresQL, that you connect to with a “client.”
 
-![Database](assets/pic1.png)
+![Database](assets/pic1.PNG)
 
 **A server may contain several databases. Each database has tables in it, with columns. Each table is like an Excel sheet of raw data.**
 
 A Good Overview Article (way more technical than we need)
 http://www.elated.com/articles/mysql-for-absolute-beginners/
 
-![dbflow](assets/pic2.png)
+![dbflow](assets/pic2.PNG)
 
 ## SQL database structure
   * Like Excel, you have tables with columns and rows
@@ -34,7 +34,7 @@ to squeeze everything into one table.
   * One “topic” per table. That way fewer errors occur
 when changes in the data happen.
 
-![dbdesign](assets/pic3.png)
+![dbdesign](assets/pic3.PNG)
 
 
 ## SQL varieties
@@ -53,7 +53,7 @@ Also, note that some clients allow you to do it with cvs data.
 
   * Single table queries - with filters, limits, and ordering:
 
-![query](assets/pic4.png)
+![query](assets/pic4.PNG)
 
 Interested in more practice ? Try the lessons here http://www.w3schools.com/sql/sql_intro.asp
 
@@ -61,23 +61,23 @@ Interested in more practice ? Try the lessons here http://www.w3schools.com/sql/
 Install a SQLite GUI: SQLite Studio works on all platforms: http://sqlitestudio.pl/  
 After installing, add the db Chinook.db. You must navigate to it on your hard drive -Chinook.db.
 
-![class1](assets/pic5.png)
+![class1](assets/pic5.PNG)
 
 After you add it, click on it. Afterwards, click on the “Connect” icon.
 <p align="center">
-  ![class2](assets/pic6.png)
+  ![class2](assets/pic6.PNG)
 </p>
 
 You should see this:
 <p align="center">
-  ![class3](assets/pic7.png)
+  ![class3](assets/pic7.PNG)
 </p>
 
 
 **Inspect the tables**  
 Double click on a table to see the structure and data.
 
-![class4](assets/pic8.png)
+![class4](assets/pic8.PNG)
 
 ## Data Types
   * There seem to be 2 sets of tables in this db - sales related items (employees, customers, invoices,
@@ -85,31 +85,31 @@ invoice_items) and musician items (albums, artists, genres, media_types, playlis
 
   * What are the relationships between the tables for the invoices items? Find the “foreign keys.” These tie tables together.
 
-![class5](assets/pic9.png)
+![class5](assets/pic9.PNG)
 
 “CustomerId” references Customer - another table.
 
 
 ## Data tab
-![class6](assets/pic10.png)
+![class6](assets/pic10.PNG)
 
 <p align="center">
-  ![class7](assets/pic11.png)
+  ![class7](assets/pic11.PNG)
 </p>
 
-![class8](assets/pic12.png)
+![class8](assets/pic12.PNG)
 
 Make sure you are using your database…   
 If you have multiple “loaded”:
 <p align="center">
-  ![class9](assets/pic13.png)
+  ![class9](assets/pic13.PNG)
 </p>
 
 
 ## Export to Excel
 This GUI client requires you to redo the query in an export dialog. (Others allow you to export as CSV
 right from the results.) Check Column names in first row! Tab as separator is safest.
-![class10](assets/pic14.png)
+![class10](assets/pic14.PNG)
 
 It shows *comma* (,) but you should choose Tab. Then read it as an external text file in Excel, with Tab as your delimiter.
 
