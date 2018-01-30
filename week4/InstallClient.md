@@ -18,3 +18,7 @@ Other options:
 * There is also Toad for MySQL, not sure if it runs on both Windows and Mac (make sure you get the right one): [Downloads](http://download.cnet.com/windows/quest-software/3260-20_4-84752-1.html)
 
 * DBeaver is multi-platform (no idea if it's any good): [Site](https://dbeaver.jkiss.org/)
+
+## After Installation
+
+Your goal is to make a new connection to the course server in the cloud.  I will post the URL and account info on Brightspace.
