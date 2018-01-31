@@ -57,65 +57,98 @@ Also, note that some clients allow you to do it with cvs data.
 
 Interested in more practice ? Try the lessons here http://www.w3schools.com/sql/sql_intro.asp
 
-## For class: SQLite
-Install a SQLite GUI: SQLite Studio works on all platforms: http://sqlitestudio.pl/  
-After installing, add the db Chinook.db. You must navigate to it on your hard drive -Chinook.db.
+## For class: SQL Client
 
-![class1](assets/pic5.PNG)
+You should have already installed a client. [See recommendations here.](InstallClient.md)
 
-After you add it, click on it. Afterwards, click on the “Connect” icon.
-<p align="center">
-  ![class2](assets/pic6.PNG)
-</p>
+The Brightspace module shows you how to create the connection to the class MySQL server and pick a database.
 
-You should see this:
-<p align="center">
-  ![class3](assets/pic7.PNG)
-</p>
+Pick as your database the Chinook database, the second one in the class list:
+
+<img src="assets/SQLIntro-e2b1d.png">
 
 
 **Inspect the tables**  
 Double click on a table to see the structure and data.
 
-![class4](assets/pic8.PNG)
+Expand the levels to see the tables and the table columns:
 
-## Data Types
-  * There seem to be 2 sets of tables in this db - sales related items (employees, customers, invoices,
+<img src="assets/SQLIntro-06ee8.png">
+
+To get a view of what's in a table, you can hover and click on the icon to the right edge, in MySQL Workbench:
+
+<img src="assets/SQLIntro-8cedc.png">
+
+This will open a window where it executes the query and shows you the table contents:
+
+<img src="assets/SQLIntro-b7ade.png">
+
+In other clients, it's easier to see the tables and their contents. In **SQL Pro**, select a database and click on a table to see many options:
+
+<img src="assets/SQLIntro-a0139.png">
+
+When you click on the "Content" icon on top, you will see the data table contents (a preview):
+
+<img src="assets/SQLIntro-12340.png">
+
+This is the same as doing a SQL query to show * from the table.
+
+In HeidiSQL on Windows, the tab "donneees" shows the contents of the table:
+
+<img src="assets/SQLIntro-76e0c.png">
+
+
+## Data Tables and Types
+
+ In Chinook, there seem to be 2 sets of tables in this db - sales related items (employees, customers, invoices,
 invoice_items) and musician items (albums, artists, genres, media_types, playlist_track, playlists, and tracks).
 
-  * What are the relationships between the tables for the invoices items? Find the “foreign keys.” These tie tables together.
+ Usually tables in SQL databases are related by keys to other tables.  This may or may not be an explicit "Foreign Key" relationship enforced across tables.  A Foreign Key is usually an id that is the same in 2 different tables, such as the CustomerID shown below in this one.  “CustomerId” here references Customer in another table.  This is similar to what you had in the VLOOKUP homework with the OrderID and returns.
 
-![class5](assets/pic9.PNG)
+Here is a view of SQL Pro and the Invoice table.  Notice one of the columns is the CustomerId.  What table do you think that relates to?  It should be obvious in a well-designed database.
 
-“CustomerId” references Customer - another table.
-
-
-## Data tab
-![class6](assets/pic10.PNG)
-
-<p align="center">
-  ![class7](assets/pic11.PNG)
-</p>
-
-![class8](assets/pic12.PNG)
-
-Make sure you are using your database…   
-If you have multiple “loaded”:
-<p align="center">
-  ![class9](assets/pic13.PNG)
-</p>
+<img src="assets/SQLIntro-2b0d8.png">
 
 
 ## Export to Excel
-This GUI client requires you to redo the query in an export dialog. (Others allow you to export as CSV
-right from the results.) Check Column names in first row! Tab as separator is safest.
-![class10](assets/pic14.PNG)
 
-It shows *comma* (,) but you should choose Tab. Then read it as an external text file in Excel, with Tab as your delimiter.
+All SQL clients allow you to export the query results as CSV.  This is why we spend a lot of time on CSV import into Excel.
 
-## Warning
+In SQL Pro, there is a small button at the bottom of the results page:
+
+<img src="assets/SQLIntro-d6e71.png">
+
+Export dialog options available in SQL Pro:
+
+<img src="assets/SQLIntro-3ef88.png">
+
+In Heidi SQL, you want to choose "Outils" menu, then "Export lignes de la grille":
+
+<img src="assets/SQLIntro-b341a.png">
+
+Then import the CSV data (or use Text-to-columns/convertir) and fix the column types:
+
+<img src="assets/SQLIntro-846bc.png">
+
+After importing into American settings and choosing "Currency" type for the Total, it appears this way:
+
+<img src="assets/SQLIntro-4ab27.png">
+
+Importing into French settings, it appears this way (after you fix the currency to $):
+
+<img src="assets/SQLIntro-41a13.png">
+
+
+## Warning Re conversions
+
 Data you export from these SQL tables will be in International
 numeric format, not Euro/French. Your best bet is to use import
-txt file and set your number format during the import wizard.
-Also set the date format.
-In class homework requires this export….
+text file, and set your number format during the import wizard (the "convertir" dialog).
+
+Also set the date format.  The currency may be the biggest problem, however.
+
+If you have issues with your conversions, your fallback to fix the dates and numbers is to keep your columns in Text format, and use a formula to fix them in a new column:
+
+<img src="assets/SQLIntro-273a0.png">
+
+How do you know if you have issues?  If you can't do math with your column of Totals, for instance.  If your Pivot tables show errors like DIV0! (div by 0 problems).  That means your are probably still using "text" types for your numbers.
