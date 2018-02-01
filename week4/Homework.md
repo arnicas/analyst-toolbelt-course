@@ -1,5 +1,7 @@
 ## Homework Week 4
 
+You must have done the [SQL Bolt online tutorials 1-4](https://sqlbolt.com/lesson/introduction) first.
+
 Upload 2 files.  Do the quiz.
 
 ### Excel export:
