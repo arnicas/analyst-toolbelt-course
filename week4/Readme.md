@@ -9,4 +9,4 @@ The connection credentials will be posted in BrightSpace, not here.
 
 * Do the [SQLBolt tutorials 1-4](https://sqlbolt.com/lesson/introduction).
 
-* Homework Week4
+* [Homework Week4](Homework.md)
