@@ -114,35 +114,48 @@ Here is a view of SQL Pro and the Invoice table.  Notice one of the columns is t
 
 All SQL clients allow you to export the query results as CSV.  This is why we spend a lot of time on CSV import into Excel.
 
-In SQL Pro, there is a small button at the bottom of the results page:
+In **SQL Pro**, there is a small button at the bottom of the results page:
 
-<img src="assets/SQLIntro-d6e71.png">
+<img src="assets/SQLIntro-d6e71.png" height="300">
 
-Export dialog options available in SQL Pro:
+Export dialog options available in **SQL Pro**:
 
 <img src="assets/SQLIntro-3ef88.png">
 
-In Heidi SQL, you want to choose "Outils" menu, then "Export lignes de la grille":
+In **Heidi SQL**, you want to choose "Outils" menu, then "Export lignes de la grille":
 
 <img src="assets/SQLIntro-b341a.png">
+
+You can either export as Excel CSV or Delimited Text (and you can change the delimiter to ";" if you prefer).
+
+In **MySQL Workbench**, the export is an icon labeled "EXPORT" above the results table (see it on the right):
+
+<img src="assets/SQLIntro-f673f.png">
+
+
+## Import to excel
+
+You should review the class notes on importing text data to Excel from CSV and setting the types.  This was illustrated, demoed, and videod many times.
 
 Then import the CSV data (or use Text-to-columns/convertir) and fix the column types:
 
 <img src="assets/SQLIntro-846bc.png">
 
-After importing into American settings and choosing "Currency" type for the Total, it appears this way:
+If I import into my regional American settings and choosing "Currency" type for the Total and pick $, it appears this way:
 
 <img src="assets/SQLIntro-4ab27.png">
 
-Importing into French settings, it appears this way (after you fix the currency to $):
+(If the currency change doesn't show a symbol for you, your Total column is probably not being interpreted as numeric.  This means you did something wrong during the import (check how you treated the decimal separator) or you have buggy Excel issues.  See below for fixes using formulas.)
+
+Importing into my French settings, my data appears this way (after you fix the currency to $):
 
 <img src="assets/SQLIntro-41a13.png">
 
 
-## Warning Re conversions
+## Warning Re Conversions
 
 Data you export from these SQL tables will be in International
-numeric format, not Euro/French. Your best bet is to use import
+numeric format, not Euro/French, usually. Your best bet is to use import
 text file, and set your number format during the import wizard (the "convertir" dialog).
 
 Also set the date format.  The currency may be the biggest problem, however.
