@@ -16,7 +16,7 @@ You can find a "save" button for your query window, often under "File" menu.
 
 You can get the results you get from Pivot Tables in Excel, and more:
 
-<img src="assets/Readme-2d9ca.png" height="300">
+<img src="assets/Readme-2d9ca.png" height="200">
 
 See [Select Queries with Aggregates Lesson](https://sqlbolt.com/lesson/select_queries_with_aggregates)
 
@@ -25,62 +25,60 @@ See [Select Queries with Aggregates Lesson](https://sqlbolt.com/lesson/select_qu
 
 Remember you can do math in SQL queries:
 
-<img src="assets/Readme-38c69.png" height="300">
+<img src="assets/Readme-38c69.png" height="150">
 
 Also in the WHERE query (to limit your results!).
 
-Pivot Table in SQL
+### Pivot Table in SQL
 
 Done by select and math and groupby:
 
-<img src="assets/Readme-0b397.png" height="300">
+<img src="assets/Readme-0b397.png" height="150">
 
 Whenever you do math, you need to think about grouping by the thing you are counting, or summing, or averaging...  Because you need to group before the calculation can occur.
 
 How would you verify the result is correct?  You can take out the aggregation and do a pivot table in excel.
 
-<img src="assets/Readme-dc929.png" height="300">
+<img src="assets/Readme-dc929.png" height="150">
 
 How would you get Total of Sales for this query?  and What are you totaling, exactly?
 
-<img src="assets/Readme-fe3a9.png" height="300">
+<img src="assets/Readme-fe3a9.png" height="150">
 
 ### Group By + "Having"
 
 
-<img src="assets/Readme-8fe8b.png" height="300">
+<img src="assets/Readme-8fe8b.png" height="150">
 
 should be same result as the WHERE version:
 
-<img src="assets/Readme-ae657.png" height="300">
+<img src="assets/Readme-ae657.png" height="150">
 
-### Exercises
+### Exercises In Class
 
-Save these queries to turn in!
+* In the Tracks table in Chinook, how many songs (tracks) appear by each composer?  Get the count of songs per composer, order by count descending (largest at the top) show only the top 10.
 
-In the Tracks table in Chinook, how many songs (tracks) appear by each composer?  Get the count of songs per composer, order by count descending (largest at the top) show only the top 10.
-
-Find the number of songs per album.  Order by count descending.
+* Find the number of songs per album.  Order by count descending.
 
 ### Advanced SQL -- Just FYI
 
 Find the average of the song count per album.  This is complicated because it requires 2 queries in one. You can nest the first query INSIDE the second, giving it a temporary table name ("counts") and referring to it for your second query, the average.
 
-<img src="assets/Readme-adf7c.png" height="300">
+<img src="assets/Readme-adf7c.png" height="150">
 
 ### Using a Join, Keys
 
-<img src="assets/Readme-c5575.png" height="300">
+<img src="assets/Readme-c5575.png" height="150">
 
 There is an ID that is shared across tables.  Sometimes it's actually defined as a "foreign key" and sometimes not explicit.  In a database diagram, it will look like this if it's an explicit constraint in the database. "PK" means primary key (the unique identifier for a row in a table), and "FK" means "Foreign Key," which links to another table's primary key. "Link" means it's the same value.
 
-<img src="assets/Readme-d6f0d.png" height="300">
+<img src="assets/Readme-d6f0d.png" height="150">
 
 See http://www.sql-join.com/
 
 Here is another database diagram for all of Chinook, showing the primary keys in each table with a key icon.  The links show the tables that are related by linked keys.
 
-<img src="assets/Readme-9ef30.png" height="300">
+<img src="assets/Readme-9ef30.png" height="400">
 
 **LEFT/RIGHT JOIN**: Returns all rows from right or left side of the join, even if no match appears. (Much less common.)
 More on Joins
@@ -93,7 +91,7 @@ if values in some row don’t match.
 
 A visual aid in set terms:
 
-<img src="assets/Readme-2144c.png" height="300">
+<img src="assets/Readme-2144c.png" height="400">
 
 Example in Chinook:
 
@@ -156,7 +154,7 @@ This means 2 joins!  That's ok, though.
 
 ###  All the Clauses in a MySQL Query
 
-<img src="assets/Readme-48581.png" height="300">
+<img src="assets/Readme-48581.png" height="150">
 
 See [Order of Execution lesson](https://sqlbolt.com/lesson/select_queries_order_of_execution)
 
