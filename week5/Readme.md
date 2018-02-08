@@ -159,3 +159,10 @@ This means 2 joins!  That's ok, though.
 <img src="assets/Readme-48581.png">
 
 See [Order of Execution lesson](https://sqlbolt.com/lesson/select_queries_order_of_execution)
+
+
+### [Homework for the week.](Homework.md)
+
+See [file](Homework.md). You will turn in queries in a text file (.txt) or .sql file.  These queries must be runnable by us and have comments identifying which HW question they are.
+
+There is also a quiz on the concepts and the homework query results.
