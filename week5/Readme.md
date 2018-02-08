@@ -5,7 +5,7 @@ We are continuing SQL Bolt lessons: lesson 5-12 are needed for the homework.  St
 
 ### Reminder that you can have multiple queries in a query window, and save them, in all clients.  In Heidi SQL:
 
-<img src="assets/Readme-16f9c.png">
+<img src="assets/Readme-16f9c.png" height="300">
 
 You must end your queries with a ";" to keep them separate and runnable in the same file.  Some of you missed this in the Homework.
 
@@ -16,7 +16,7 @@ You can find a "save" button for your query window, often under "File" menu.
 
 You can get the results you get from Pivot Tables in Excel, and more:
 
-<img src="assets/Readme-2d9ca.png">
+<img src="assets/Readme-2d9ca.png" height="300">
 
 See [Select Queries with Aggregates Lesson](https://sqlbolt.com/lesson/select_queries_with_aggregates)
 
@@ -25,7 +25,7 @@ See [Select Queries with Aggregates Lesson](https://sqlbolt.com/lesson/select_qu
 
 Remember you can do math in SQL queries:
 
-<img src="assets/Readme-38c69.png">
+<img src="assets/Readme-38c69.png" height="300">
 
 Also in the WHERE query (to limit your results!).
 
@@ -33,26 +33,26 @@ Pivot Table in SQL
 
 Done by select and math and groupby:
 
-<img src="assets/Readme-0b397.png">
+<img src="assets/Readme-0b397.png" height="300">
 
 Whenever you do math, you need to think about grouping by the thing you are counting, or summing, or averaging...  Because you need to group before the calculation can occur.
 
 How would you verify the result is correct?  You can take out the aggregation and do a pivot table in excel.
 
-<img src="assets/Readme-dc929.png">
+<img src="assets/Readme-dc929.png" height="300">
 
 How would you get Total of Sales for this query?  and What are you totaling, exactly?
 
-<img src="assets/Readme-fe3a9.png">
+<img src="assets/Readme-fe3a9.png" height="300">
 
 ### Group By + "Having"
 
 
-<img src="assets/Readme-8fe8b.png">
+<img src="assets/Readme-8fe8b.png" height="300">
 
 should be same result as the WHERE version:
 
-<img src="assets/Readme-ae657.png">
+<img src="assets/Readme-ae657.png" height="300">
 
 ### Exercises
 
@@ -66,21 +66,21 @@ Find the number of songs per album.  Order by count descending.
 
 Find the average of the song count per album.  This is complicated because it requires 2 queries in one. You can nest the first query INSIDE the second, giving it a temporary table name ("counts") and referring to it for your second query, the average.
 
-<img src="assets/Readme-adf7c.png">
+<img src="assets/Readme-adf7c.png" height="300">
 
 ### Using a Join, Keys
 
-<img src="assets/Readme-c5575.png">
+<img src="assets/Readme-c5575.png" height="300">
 
 There is an ID that is shared across tables.  Sometimes it's actually defined as a "foreign key" and sometimes not explicit.  In a database diagram, it will look like this if it's an explicit constraint in the database. "PK" means primary key (the unique identifier for a row in a table), and "FK" means "Foreign Key," which links to another table's primary key. "Link" means it's the same value.
 
-<img src="assets/Readme-d6f0d.png">
+<img src="assets/Readme-d6f0d.png" height="300">
 
 See http://www.sql-join.com/
 
 Here is another database diagram for all of Chinook, showing the primary keys in each table with a key icon.  The links show the tables that are related by linked keys.
 
-<img src="assets/Readme-9ef30.png">
+<img src="assets/Readme-9ef30.png" height="300">
 
 **LEFT/RIGHT JOIN**: Returns all rows from right or left side of the join, even if no match appears. (Much less common.)
 More on Joins
@@ -93,7 +93,7 @@ if values in some row don’t match.
 
 A visual aid in set terms:
 
-<img src="assets/Readme-2144c.png">
+<img src="assets/Readme-2144c.png" height="300">
 
 Example in Chinook:
 
@@ -156,7 +156,7 @@ This means 2 joins!  That's ok, though.
 
 ###  All the Clauses in a MySQL Query
 
-<img src="assets/Readme-48581.png">
+<img src="assets/Readme-48581.png" height="300">
 
 See [Order of Execution lesson](https://sqlbolt.com/lesson/select_queries_order_of_execution)
 
