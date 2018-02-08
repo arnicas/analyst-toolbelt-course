@@ -6,12 +6,11 @@ Turn in your .sql or .txt files (no Word or RTF files) with ";" at the end of ea
 "Use Chinook;" for these:
 
 1. How many tracks does each playlist contain? order by playlist id ascending.
-2. What playlist has no tracks?
-3. What tracks are in the playlists that have only one song in them? Use a join and get the track names.
-4. Count the genres of the tracks in each playlist. Order by count desc and show count and playlist columns.
-5. What are the 10 most frequent artists appearing in the playlists? (Get names and counts as columns.)
-6. Get the count, average price, and avg length (in SECONDS, this means math!) of all the mediatypes in tracks. Also return the name of the media types.
-7. What are the 10 longest (time duration) MPEG audio mediatype tracks?
+2. What playlist or playlists have no tracks?
+3. Count the unique genres of the tracks in each playlist. Order by count descending and show count and playlist columns.
+4. What are the 10 artists most frequently appearing in the playlists? (Get artist names and counts as columns.)
+5. Get the count, average price, and avg length (in SECONDS, this means math!) of all the mediatypes in tracks. Also return the name of the media types.
+6. What are the 10 longest (time duration) MPEG audio mediatype tracks?
 
 Use the movies database.  Put "Use Movies;" in your file and execute it.
 
