@@ -1,6 +1,18 @@
 
 # Homework Tableau
 
+
+### Required for the Homework
+
+http://www.tableau.com/fr-fr/learn/training
+
+Use this data: http://www.tableau.com/sites/default/files/getting-started_data-sets_fr-fr.zip
+
+Watch “Demarrage” and “L’Interface de Tableau.”  
+For HW, you will recreate the charts in the “Demarrage” video.
+
+https://www.tableau.com/fr-fr/learn/tutorials/on-demand/getting-started?reg-delay=6c7a19ee163152f99a781d669f828213
+
 You owe two files:
 
 Do the main examples in the Intro video (“Demarrage") and upload a PDF of your workbook. (Points for completeness!) See end of my [Tableau Intro](Tableau.mc)  for how to export PDFs. (Yes, it will look bad as an export. I’m looking for evidence you did the examples.)
