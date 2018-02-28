@@ -5,7 +5,7 @@
 
 <img src="assets/TabSQL1.PNG" alt="Tableau" style="width: 300px;"/>
 
-
+![Database](assets/TabSQL1.PNG "height=200")
 ### Setting up the connection
 Let's now add a connection. Our SQL host informations are :
 * Server : analyst-toolbelt.cn119w37trlg.eu-west-1.rds.amazonaws.com
