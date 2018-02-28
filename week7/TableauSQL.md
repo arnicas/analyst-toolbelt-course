@@ -60,7 +60,7 @@ Now use a ShowMe histogram to check this data : On a blank sheet, open show me a
 <img src="assets/TabSQL11.PNG" alt="histogram" style="width: 200px;"/>      
 You must have this :
 
-<img src="assets/TabSQL12.PNG" alt="histo_results" style="width: 300px;"/>   
+<img src="assets/TabSQL12.PNG" alt="histo_results" style="width: 150px;"/>   
 Weird results. What’s going on? Go back to your original data.
 
 Their “to_date” is impossible - it must mean “still employed.”     
