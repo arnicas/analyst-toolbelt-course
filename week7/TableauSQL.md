@@ -3,9 +3,9 @@
 **Make sure you also have a SQL client, e.g : MySQL Workbench (both platforms) : https://www.mysql.fr/products/workbench/**
 
 
-<img src="assets/TabSQL1.PNG" alt="Tableau" style="width: 300px;"/>
+<img src="assets/TabSQL1.PNG" alt="Tableau" width="60%">
 
-![Database](assets/TabSQL1.PNG "height=200")
+![Database](assets/TabSQL1.PNG)
 ### Setting up the connection
 Let's now add a connection. Our SQL host informations are :
 * Server : analyst-toolbelt.cn119w37trlg.eu-west-1.rds.amazonaws.com
