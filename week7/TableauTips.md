@@ -19,6 +19,32 @@ Right click on the dot:
 
 <img src="assets/TableauTips-d260d.png">
 
+
+### Adding Annotations on the Chart background
+
+You want as much helpful text as possible in your chart for getting your message across.
+
+Right click on the background and choose Annotate, Area:
+
+<img src="assets/TableauTips-fa99a.png">
+
+Your note will appear floating in space:
+
+<img src="assets/TableauTips-a7389.png">
+
+
+### Currency Symbol Formatting
+
+You must learn how to label your axes values with currency symbols.
+
+<img src="assets/TableauTips-fa2b9.png">
+
+Using fewer decimal places and millions (M) (in English/American):
+
+<img src="assets/TableauTips-c1510.png">
+
+
+
 ## Exploratory Charts - Examine Your Data
 
 Always do counts on your data, using histograms and/or boxplots to see distributions.
