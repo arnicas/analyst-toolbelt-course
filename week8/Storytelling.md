@@ -4,7 +4,7 @@
 ## Data storytelling
 
 * [Forbes article](https://www.forbes.com/sites/brentdykes/2016/03/31/data-storytelling-the-essential-data-science-skill-everyone-needs/#1264193f52ad)
-* 
+*
 
 
 ## Data Journalism
@@ -40,6 +40,8 @@ If you have multiple outliers, what makes them similar or surprising?
 
 <img src="assets/Storytelling-f4657.png">
 
+Read [Nathan Yau's advice](http://flowingdata.com/2018/03/07/visualizing-outliers/)
+
 ### Groups - Can You Find or Make Them?
 
 Coloring countries by a few categories so you can compare the groups:
@@ -53,7 +55,7 @@ Sometimes the data reveal a pattern you can then "explain" or work with further:
 
 <img src="assets/Storytelling-b64e5.png">
 
-### Ask Yourself, like a Journalist
+### Ask Yourself, like a Journalist:
 
 * Who, what, when, why, where…
 * Summarize all the data (histograms too)
@@ -66,10 +68,6 @@ Sometimes the data reveal a pattern you can then "explain" or work with further:
 
 Ann K Emery [4 Storytelling Strategies](annkemery.com/four-storytelling-strategies/)
 
-
-## Dashboards
-
-http://www.susielu.com/data-viz/storytelling-in-dashboards
 
 ## Hans Rosling
 
@@ -98,3 +96,9 @@ Let’s try it…  When you watch it, I want you to take notes on the "main poin
 * [Ins and Outs of Stories](https://tc14.tableau.com/schedule/content/961)
 * [Earthquake story walkthru](http://onlinehelp.tableau.com/current/pro/desktop/en-us/help.htm#story_example.html)
 * [The Earthquake Workbook](https://public.tableau.com/profile/tableau.docs.team#!/vizhome/EarthquakeTrendStoryExample/Earthquakestory)
+
+## Dashboards
+
+http://www.susielu.com/data-viz/storytelling-in-dashboards
+
+Book rec: http://bigbookofdashboards.com/
