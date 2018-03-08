@@ -90,10 +90,15 @@ Sometimes the data reveal a pattern you can then "explain" or work with further:
 
 ## Reminders for your story
 
+State your points in the charts. Make it easier for the viewer. Annotations, subtitles, finding of the chart, key labels, your authority/credentials for the chart's contents.
+
+From Ann K Emery [4 Storytelling Strategies](https://annkemery.com/four-storytelling-strategies/)
+
 <img src="assets/Storytelling-a80e8.png">
 
-Ann K Emery [4 Storytelling Strategies](annkemery.com/four-storytelling-strategies/)
+<img src="assets/Storytelling-51663.png">
 
+See also Jorge Camoes [book Data At Work](https://www.amazon.com/Data-Work-practices-effective-information-ebook/dp/B01DYIPZF4/ref=sr_1_1?ie=UTF8&qid=1520500098&sr=8-1&keywords=jorge+camoes).
 
 ## Hans Rosling
 
@@ -111,22 +116,32 @@ This is an in-class exercise to turn in. (Put your name on your paper legibly.)
 
 ## Story-telling in Tableau
 
-* https://eagereyes.org/blog/2013/story-points
+* Introducing it: https://eagereyes.org/blog/2013/story-points
 
-* Read: http://kosara.net/papers/2013/Kosara_Computer_2013.pdf
+* An academic paper on the topic: http://kosara.net/papers/2013/Kosara_Computer_2013.pdf
 
-* http://storiesthroughdata.blogs.lincoln.ac.uk/2013/04/12/visualising-data-can-you-see-stories/
 
 ## Links on Using Tableau Storypoints
 
-* [help docs on story points](http://onlinehelp.tableau.com/current/pro/desktop/en-us/help.htm#qs_stories.html)
-* [help on sharing stories](http://onlinehelp.tableau.com/current/pro/desktop/en-us/help.htm#stories.html%3FTocPath%3DPublish%2520and%2520Share%7CStories%7C_____0)
 * [Ins and Outs of Stories](https://tc14.tableau.com/schedule/content/961)
-* [Earthquake story walkthru](http://onlinehelp.tableau.com/current/pro/desktop/en-us/help.htm#story_example.html)
-* [The Earthquake Workbook](https://public.tableau.com/profile/tableau.docs.team#!/vizhome/EarthquakeTrendStoryExample/Earthquakestory)
+* [Help docs on story points](http://onlinehelp.tableau.com/current/pro/desktop/en-us/help.htm#qs_stories.html)
+* [Help on sharing stories](http://onlinehelp.tableau.com/current/pro/desktop/en-us/help.htm#stories.html%3FTocPath%3DPublish%2520and%2520Share%7CStories%7C_____0)
+* [The Earthquake Workbook](https://public.tableau.com/profile/tableau.docs.team#!/vizhome/EarthquakeTrendStoryExample/Earthquakestory) - we'll go thru this
+* [Earthquake story walkthru](http://onlinehelp.tableau.com/current/pro/desktop/en-us/help.htm#story_example.html) - you should read this.
+
 
 ## Dashboards
 
-http://www.susielu.com/data-viz/storytelling-in-dashboards
+Moving from Stories to Dashboards.  Or, how do they relate?
 
-Book rec: http://bigbookofdashboards.com/
+[Storytelling in Dashboards bu Susie Lu](http://www.susielu.com/data-viz/storytelling-in-dashboards)
+
+Book rec, [Big Book of Dashboards](http://bigbookofdashboards.com/).
+
+##  Jobs and companies
+
+A few french companies of interest:
+
+* WeDoData, see [http://www.storybench.org/how-wedodata-data-visualization-studio-bridging-narrative-statistics/](http://www.storybench.org/how-wedodata-data-visualization-studio-bridging-narrative-statistics/)
+* [Dataveyes](http://dataveyes.com/#!/fr)
+* [Toucan Toco](https://toucantoco.com/fr/) - hiring my students who can do data vis and storytelling and can understand SQL without help.
