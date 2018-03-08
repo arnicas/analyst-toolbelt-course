@@ -5,7 +5,7 @@
 
 * [Storytelling](Storytelling.md)
 
-* Class Exercise(s) to turn in:
+* [Class Exercise(s)](Class.md) to turn in:
     - Notes from Hans Rosling's video (on paper)
     - Superstore storypoints - sketches and workbook (packaged)
 

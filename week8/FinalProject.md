@@ -22,6 +22,7 @@ Be sure to turn in a Packaged Tableau Workbook (which includes data links-see ht
 
 <img src="assets/FinalProject-273e7.png">
 
+
 ## Grading breakdowns
 
 The Final Project is 25% of your grade for the course.  NO COPYING OR WORKING TOGETHER. THIS IS INDIVIDUAL WORK.
@@ -36,5 +37,9 @@ Breakdown of the points:
 * Following these directions: 10%. Should be easy. If you don't follow directions you also lose the points for the thing(s) you didn't do.
 
 You must all turn in original work. You can ask each other for help, but you may not use each other’s results. I expect workbooks and charts to be original.
+
+## datasets
+
+I will assign datasets from the SQL database to people in the class. It will be done tomorrow or on the weekend.
 
 My office hours will be by arrangement, feel free to ask me for time?

@@ -5,6 +5,23 @@
 
 * [Forbes article](https://www.forbes.com/sites/brentdykes/2016/03/31/data-storytelling-the-essential-data-science-skill-everyone-needs/#1264193f52ad)
 
+````
+Google’s Chief Economist Dr. Hal R.Varian stated,
+"The ability to take data—to be able to understand
+it, to process it, to extract value from it,
+to visualize it, to communicate it—that’s going to be a
+hugely important skill in the next decades.
+````
+See [this success story aquisition -- I used to work there](https://www.forbes.com/forbes/welcome/?toURL=https://www.forbes.com/sites/antoinegara/2018/03/06/wall-street-tech-spree-with-kensho-acquisition-sp-global-makes-largest-a-i-deal-in-history/&refURL=https://t.co/DBkR6eoA33&referrer=https://t.co/DBkR6eoA33#11bd255e67b8), which is really about databases and vis.
+
+Forbes again:
+````
+Many of the heavily-recruited individuals with advanced
+degrees in economics, mathematics, or statistics struggle
+with communicating their insights to others effectively—
+essentially, telling the story of their numbers.
+````
+
 
 ## Data Journalism
 
@@ -39,7 +56,17 @@ If you have multiple outliers, what makes them similar or surprising?
 
 <img src="assets/Storytelling-f4657.png">
 
-Read [Nathan Yau's advice](http://flowingdata.com/2018/03/07/visualizing-outliers/)
+Read [Nathan Yau's advice](http://flowingdata.com/2018/03/07/visualizing-outliers/) on visualizing and working with outliers.
+
+````
+In one case, the outlier is noise relative to the rest of the data.
+In another the outliers deserve a closer look.
+````
+
+See my post here: [Data Characters in Search of An Author](http://blogger.ghostweather.com/2014/05/data-characters-in-search-of-author.html)
+
+<img src="assets/Storytelling-cfc9f.png">
+
 
 ### Groups - Can You Find or Make Them?
 
