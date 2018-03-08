@@ -4,7 +4,6 @@
 ## Data storytelling
 
 * [Forbes article](https://www.forbes.com/sites/brentdykes/2016/03/31/data-storytelling-the-essential-data-science-skill-everyone-needs/#1264193f52ad)
-*
 
 
 ## Data Journalism
@@ -15,12 +14,12 @@ Stepping thru a data story:
 
 * http://www.nytimes.com/interactive/2014/03/31/science/motorcycle-helmet-laws.html
 
-* the "Stepper" is just like Tableau's text buttons in a story: http://www.nytimes.com/interactive/2013/02/04/science/girls-lead-in-science-exam-but-not-in-the-united-states.html
+* The "Stepper" is just like Tableau's text buttons in a story: http://www.nytimes.com/interactive/2013/02/04/science/girls-lead-in-science-exam-but-not-in-the-united-states.html
 
-* Academic article reviewing techniques: http://vis.stanford.edu/files/2010-Narrative-InfoVis.pdf
+* Academic article reviewing techniques in data stories: http://vis.stanford.edu/files/2010-Narrative-InfoVis.pdf
 
 
-## Data Exploration
+## Data Exploration for your in-class and project work:
 
 look for
 
@@ -76,12 +75,14 @@ The most famous example of storytelling: [Hans Rosling's video](https://www.ted.
 He relies on
 * animation
 * and narration
-* and pointing at parts of the graph.
+* and pointing at parts of the graph.  Especially outliers.
 
 What if you have static (not animated) charts?  What points would you show?
 Let’s try it…  When you watch it, I want you to take notes on the "main points" he makes.  What are the story points if you made it as a static story?
 
-## Story telling in Tableau
+This is an in-class exercise to turn in. (Put your name on your paper legibly.)
+
+## Story-telling in Tableau
 
 * https://eagereyes.org/blog/2013/story-points
 
