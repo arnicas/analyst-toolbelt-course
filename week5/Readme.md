@@ -1,5 +1,5 @@
 
-## Week 5: More SQL
+# Week 5: More SQL
 
 We are continuing SQL Bolt lessons: lesson 5-12 are needed for the homework.  Start: https://sqlbolt.com/lesson/select_queries_review
 
@@ -159,7 +159,7 @@ This means 2 joins!  That's ok, though.
 See [Order of Execution lesson](https://sqlbolt.com/lesson/select_queries_order_of_execution)
 
 
-### [Homework for the week.](Homework.md)
+### Section: [Homework for the week.](Homework.md)
 
 See [file](Homework.md). You will turn in queries in a text file (.txt) or .sql file.  These queries must be runnable by us and have comments identifying which HW question they are.
 

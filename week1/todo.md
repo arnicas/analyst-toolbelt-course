@@ -9,4 +9,4 @@
 
 * Numbers are truncated in some csv files because of import causing them to be converted to scientific notation/text.
 
-* Clean data before changing the types.
+* Clean data before changing the types.  Problem with facebook data and truncated identifiers is due to excel converting to text in scientific format and truncating identifier?

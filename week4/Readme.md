@@ -1,12 +1,13 @@
 
-## Week 4: Intro to SQL
+# Week 4: Intro to SQL
 
-* [Install a SQL Client](InstallClient.md)
+
+### Section: [Install a SQL Client](InstallClient.md)
 
 The connection credentials will be posted in BrightSpace, not here.
 
-* [Intro to SQL](SQLIntro.md)
+### Section: [Intro to SQL](SQLIntro.md)
 
-* Do the [SQLBolt tutorials 1-4](https://sqlbolt.com/lesson/introduction).
+### Section: Do the [SQLBolt tutorials 1-4](https://sqlbolt.com/lesson/introduction).
 
-* [Homework Week4](Homework.md)
+### Section: [Homework Week4](Homework.md)

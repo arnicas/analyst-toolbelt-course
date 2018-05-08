@@ -1,12 +1,14 @@
 
 # Week 8
 
-* Review Homework.
+#### In class: Review Homework.
 
-* [Storytelling](Storytelling.md)
+### Section: [Storytelling with Data](Storytelling.md)
 
-* [Class Exercise(s)](Class.md) to turn in:
-    - Notes from Hans Rosling's video (on paper)
-    - Superstore storypoints - sketches and workbook (packaged)
+### Section: [Class Exercise(s)](Class.md)
 
-* [Final Project](FinalProject.md)- I will assign the datasets from the database.
+In class exercise to to turn in:
+ * Notes from Hans Rosling's video (on paper)
+ * Superstore storypoints - sketches and workbook (packaged)
+
+### Section: [Final Project](FinalProject.md)- I will assign the datasets from the database.

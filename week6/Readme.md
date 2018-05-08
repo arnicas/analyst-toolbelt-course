@@ -2,9 +2,11 @@
 
 # Week 6: BigQuery, Tableau Intro
 
-* [BigQuery and Other Databases](BigQueryEtc.md)
-* [Tableau Intro](Tableau.md)
-* [Homework](Homework.md)
+### Section: [BigQuery and Other Databases](BigQueryEtc.md)
+
+### Section: [Tableau Intro](Tableau.md)
+
+### Section: [Homework](Homework.md)
 
 
 ## Tableau Database Drivers - Install Before Next Week

@@ -1,18 +1,18 @@
-# Week2 Analyst Toolbelt : Pivot Tables & Histograms
+# Week2 Analyst Toolbelt : Descriptive Stats, Long Data, Pivot Tables & Histograms
 
 
-Todo:
+Todo here:
  * Homework discussion. *Follow the directions!*
- * Dates.
+ * Dates in Excel.  Better file examples. CSV is a mess.
  * Text editors.
 
 
-## Section: [Descriptive Statistics](DescriptiveStats.md)
+### Section: [Descriptive Statistics](DescriptiveStats.md)
 
-## Section: [Tidy/Long data](TidyData.md)
+### Section: [Tidy/Long data](TidyData.md)
 
-## Section: [Pivot Tables](PivotTables.md)
+### Section: [Pivot Tables](PivotTables.md)
 
-## Section: [Histograms](Histograms.md)
+### Section: [Histograms](Histograms.md)
 
-## Section: [Homework](Homework.md)
+### Section: [Homework](Homework.md)
